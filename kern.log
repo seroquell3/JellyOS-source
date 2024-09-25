@@ -1,0 +1,1714 @@
+Sep  4 06:28:51 host kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Sep  4 06:28:51 host kernel: Cannot find map file.
+Sep  4 06:28:51 host kernel: Loaded 168974 symbols from 1 module.
+Sep  4 06:28:51 host kernel: [    0.000000] Linux version 6.7.4 (root@livecd) (gcc (GCC) 13.2.0, GNU ld (GNU Binutils) 2.42) #1 SMP PREEMPT_DYNAMIC Tue Sep  3 17:04:02 UTC 2024
+Sep  4 06:28:51 host kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2 root=UUID=fa8eb582-80aa-4884-807b-b8895f8bd38b rw loglevel=3 quiet
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-provided physical RAM map:
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000bffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000099fffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009a00000-0x0000000009dfffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009e00000-0x0000000009efffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009f00000-0x0000000009f0efff] ACPI NVS
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009f0f000-0x00000000b99e8fff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000b99e9000-0x00000000babe8fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000babe9000-0x00000000c8dfefff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000c8dff000-0x00000000cbdfefff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000cbdff000-0x00000000cdf7efff] ACPI NVS
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000cdf7f000-0x00000000cdffefff] ACPI data
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000cdfff000-0x00000000cdffffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000ce000000-0x00000000cfffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fdd00000-0x00000000fddfffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fdf00000-0x00000000fdffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec01fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec20000-0x00000000fec20fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed80000-0x00000000fed81fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000020e2fffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] BIOS-e820: [mem 0x000000020e300000-0x000000022fffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] NX (Execute Disable) protection: active
+Sep  4 06:28:51 host kernel: [    0.000000] APIC: Static calls initialized
+Sep  4 06:28:51 host kernel: [    0.000000] e820: update [mem 0xb5b28018-0xb5b35857] usable ==> usable
+Sep  4 06:28:51 host kernel: [    0.000000] e820: update [mem 0xb5b28018-0xb5b35857] usable ==> usable
+Sep  4 06:28:51 host kernel: [    0.000000] extended physical RAM map:
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000000000000-0x000000000009efff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x000000000009f000-0x00000000000bffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000000100000-0x00000000099fffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009a00000-0x0000000009dfffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009e00000-0x0000000009efffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009f00000-0x0000000009f0efff] ACPI NVS
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009f0f000-0x00000000b5b28017] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000b5b28018-0x00000000b5b35857] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000b5b35858-0x00000000b99e8fff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000b99e9000-0x00000000babe8fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000babe9000-0x00000000c8dfefff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000c8dff000-0x00000000cbdfefff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000cbdff000-0x00000000cdf7efff] ACPI NVS
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000cdf7f000-0x00000000cdffefff] ACPI data
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000cdfff000-0x00000000cdffffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000ce000000-0x00000000cfffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fdd00000-0x00000000fddfffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fdf00000-0x00000000fdffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fec00000-0x00000000fec01fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fec20000-0x00000000fec20fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fed80000-0x00000000fed81fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000100000000-0x000000020e2fffff] usable
+Sep  4 06:28:51 host kernel: [    0.000000] reserve setup_data: [mem 0x000000020e300000-0x000000022fffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] efi: EFI v2.7 by HUAWEI
+Sep  4 06:28:51 host kernel: [    0.000000] efi: ACPI=0xcdffe000 ACPI 2.0=0xcdffe014 TPMFinalLog=0xcdf40000 SMBIOS=0xca58c000 SMBIOS 3.0=0xca58a000 MEMATTR=0xb5afa018 ESRT=0xb5a59d18 INITRD=0xb5b3cb18 RNG=0xcdfb2018 TPMEventLog=0xb5b36018 
+Sep  4 06:28:51 host kernel: [    0.000000] random: crng init done
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Remove mem67: MMIO range=[0xf8000000-0xfbffffff] (64MB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] e820: remove [mem 0xf8000000-0xfbffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Remove mem68: MMIO range=[0xfdd00000-0xfddfffff] (1MB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] e820: remove [mem 0xfdd00000-0xfddfffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Remove mem69: MMIO range=[0xfdf00000-0xfdffffff] (1MB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] e820: remove [mem 0xfdf00000-0xfdffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Not removing mem70: MMIO range=[0xfec00000-0xfec01fff] (8KB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Not removing mem71: MMIO range=[0xfec10000-0xfec10fff] (4KB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Not removing mem72: MMIO range=[0xfec20000-0xfec20fff] (4KB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Not removing mem73: MMIO range=[0xfed80000-0xfed81fff] (8KB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Not removing mem74: MMIO range=[0xfee00000-0xfee00fff] (4KB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] efi: Remove mem75: MMIO range=[0xff000000-0xffffffff] (16MB) from e820 map
+Sep  4 06:28:51 host kernel: [    0.000000] e820: remove [mem 0xff000000-0xffffffff] reserved
+Sep  4 06:28:51 host kernel: [    0.000000] SMBIOS 3.3.0 present.
+Sep  4 06:28:51 host kernel: [    0.000000] DMI: HUAWEI BOM-WXX9/BOM-WXX9-PCB-B2, BIOS 2.11 12/21/2022
+Sep  4 06:28:51 host kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Sep  4 06:28:51 host kernel: [    0.000000] tsc: Detected 2096.071 MHz processor
+Sep  4 06:28:51 host kernel: [    0.000354] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Sep  4 06:28:51 host kernel: [    0.000356] e820: remove [mem 0x000a0000-0x000fffff] usable
+Sep  4 06:28:51 host kernel: [    0.000361] last_pfn = 0x20e300 max_arch_pfn = 0x400000000
+Sep  4 06:28:51 host kernel: [    0.000366] MTRR map: 7 entries (4 fixed + 3 variable; max 21), built from 9 variable MTRRs
+Sep  4 06:28:51 host kernel: [    0.000368] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Sep  4 06:28:51 host kernel: [    0.000731] last_pfn = 0xce000 max_arch_pfn = 0x400000000
+Sep  4 06:28:51 host kernel: [    0.004372] esrt: Reserving ESRT space from 0x00000000b5a59d18 to 0x00000000b5a59d50.
+Sep  4 06:28:51 host kernel: [    0.004377] e820: update [mem 0xb5a59000-0xb5a59fff] usable ==> reserved
+Sep  4 06:28:51 host kernel: [    0.004391] Using GB pages for direct mapping
+Sep  4 06:28:51 host kernel: [    0.004828] Secure boot disabled
+Sep  4 06:28:51 host kernel: [    0.004829] RAMDISK: [mem 0xae468000-0xb054efff]
+Sep  4 06:28:51 host kernel: [    0.004993] ACPI: Early table checksum verification disabled
+Sep  4 06:28:51 host kernel: [    0.004995] ACPI: RSDP 0x00000000CDFFE014 000024 (v02 HUAWEI)
+Sep  4 06:28:51 host kernel: [    0.004998] ACPI: XSDT 0x00000000CDFC4188 000134 (v01 HUAWEI EDK2     00000002      01000013)
+Sep  4 06:28:51 host kernel: [    0.005003] ACPI: FACP 0x00000000CDFE9000 00010C (v05 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005006] ACPI: DSDT 0x00000000CDFD9000 00A61C (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005008] ACPI: FACS 0x00000000CCED5000 000040
+Sep  4 06:28:51 host kernel: [    0.005009] ACPI: UEFI 0x00000000CDF7E000 000236 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005011] ACPI: SSDT 0x00000000CDFF5000 007229 (v02 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005013] ACPI: IVRS 0x00000000CDFF4000 0001A4 (v02 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005014] ACPI: SSDT 0x00000000CDFF0000 003A21 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005016] ACPI: SSDT 0x00000000CDFEF000 000472 (v02 HUAWEI EDK2     00001000 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005018] ACPI: TPM2 0x00000000CDFEE000 00004C (v04 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005019] ACPI: MSDM 0x00000000CDFED000 000055 (v03 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005021] ACPI: SSDT 0x00000000CDFEC000 0009F1 (v01 HUAWEI EDK2     00001000 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005022] ACPI: ASF! 0x00000000CDFEB000 0000A5 (v32 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005024] ACPI: BOOT 0x00000000CDFEA000 000028 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005026] ACPI: HPET 0x00000000CDFE8000 000038 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005027] ACPI: APIC 0x00000000CDFE7000 000138 (v03 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005029] ACPI: MCFG 0x00000000CDFE6000 00003C (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005031] ACPI: SSDT 0x00000000CDFD8000 000080 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005032] ACPI: VFCT 0x00000000CDFCA000 00D884 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005034] ACPI: SSDT 0x00000000CDFC9000 0000F8 (v01 HUAWEI EDK2     00001000 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005035] ACPI: SSDT 0x00000000CDFC5000 003E88 (v02 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005037] ACPI: CRAT 0x00000000CDFFD000 000BA8 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005039] ACPI: CDIT 0x00000000CDFC3000 000029 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005040] ACPI: SSDT 0x00000000CDFC2000 000139 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005042] ACPI: SSDT 0x00000000CDFC1000 000689 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005043] ACPI: SSDT 0x00000000CDFC0000 000D53 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005045] ACPI: SSDT 0x00000000CDFBE000 0010C5 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005047] ACPI: SSDT 0x00000000CDFBA000 0034AA (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005048] ACPI: FPDT 0x00000000CDFB9000 000044 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005050] ACPI: WSMT 0x00000000CDFB7000 000028 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005051] ACPI: SSDT 0x00000000CDFE5000 000042 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005053] ACPI: SSDT 0x00000000CDFE4000 00020A (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005054] ACPI: SSDT 0x00000000CDFB6000 0005A0 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005056] ACPI: SSDT 0x00000000CDFB5000 000307 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005058] ACPI: SSDT 0x00000000CDFB4000 00007D (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005059] ACPI: SSDT 0x00000000CDFB3000 000517 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005061] ACPI: BGRT 0x00000000CDFB8000 000038 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 06:28:51 host kernel: [    0.005062] ACPI: Reserving FACP table memory at [mem 0xcdfe9000-0xcdfe910b]
+Sep  4 06:28:51 host kernel: [    0.005063] ACPI: Reserving DSDT table memory at [mem 0xcdfd9000-0xcdfe361b]
+Sep  4 06:28:51 host kernel: [    0.005064] ACPI: Reserving FACS table memory at [mem 0xcced5000-0xcced503f]
+Sep  4 06:28:51 host kernel: [    0.005064] ACPI: Reserving UEFI table memory at [mem 0xcdf7e000-0xcdf7e235]
+Sep  4 06:28:51 host kernel: [    0.005065] ACPI: Reserving SSDT table memory at [mem 0xcdff5000-0xcdffc228]
+Sep  4 06:28:51 host kernel: [    0.005066] ACPI: Reserving IVRS table memory at [mem 0xcdff4000-0xcdff41a3]
+Sep  4 06:28:51 host kernel: [    0.005066] ACPI: Reserving SSDT table memory at [mem 0xcdff0000-0xcdff3a20]
+Sep  4 06:28:51 host kernel: [    0.005067] ACPI: Reserving SSDT table memory at [mem 0xcdfef000-0xcdfef471]
+Sep  4 06:28:51 host kernel: [    0.005067] ACPI: Reserving TPM2 table memory at [mem 0xcdfee000-0xcdfee04b]
+Sep  4 06:28:51 host kernel: [    0.005068] ACPI: Reserving MSDM table memory at [mem 0xcdfed000-0xcdfed054]
+Sep  4 06:28:51 host kernel: [    0.005068] ACPI: Reserving SSDT table memory at [mem 0xcdfec000-0xcdfec9f0]
+Sep  4 06:28:51 host kernel: [    0.005069] ACPI: Reserving ASF! table memory at [mem 0xcdfeb000-0xcdfeb0a4]
+Sep  4 06:28:51 host kernel: [    0.005069] ACPI: Reserving BOOT table memory at [mem 0xcdfea000-0xcdfea027]
+Sep  4 06:28:51 host kernel: [    0.005070] ACPI: Reserving HPET table memory at [mem 0xcdfe8000-0xcdfe8037]
+Sep  4 06:28:51 host kernel: [    0.005070] ACPI: Reserving APIC table memory at [mem 0xcdfe7000-0xcdfe7137]
+Sep  4 06:28:51 host kernel: [    0.005071] ACPI: Reserving MCFG table memory at [mem 0xcdfe6000-0xcdfe603b]
+Sep  4 06:28:51 host kernel: [    0.005072] ACPI: Reserving SSDT table memory at [mem 0xcdfd8000-0xcdfd807f]
+Sep  4 06:28:51 host kernel: [    0.005072] ACPI: Reserving VFCT table memory at [mem 0xcdfca000-0xcdfd7883]
+Sep  4 06:28:51 host kernel: [    0.005073] ACPI: Reserving SSDT table memory at [mem 0xcdfc9000-0xcdfc90f7]
+Sep  4 06:28:51 host kernel: [    0.005073] ACPI: Reserving SSDT table memory at [mem 0xcdfc5000-0xcdfc8e87]
+Sep  4 06:28:51 host kernel: [    0.005074] ACPI: Reserving CRAT table memory at [mem 0xcdffd000-0xcdffdba7]
+Sep  4 06:28:51 host kernel: [    0.005074] ACPI: Reserving CDIT table memory at [mem 0xcdfc3000-0xcdfc3028]
+Sep  4 06:28:51 host kernel: [    0.005075] ACPI: Reserving SSDT table memory at [mem 0xcdfc2000-0xcdfc2138]
+Sep  4 06:28:51 host kernel: [    0.005075] ACPI: Reserving SSDT table memory at [mem 0xcdfc1000-0xcdfc1688]
+Sep  4 06:28:51 host kernel: [    0.005076] ACPI: Reserving SSDT table memory at [mem 0xcdfc0000-0xcdfc0d52]
+Sep  4 06:28:51 host kernel: [    0.005077] ACPI: Reserving SSDT table memory at [mem 0xcdfbe000-0xcdfbf0c4]
+Sep  4 06:28:51 host kernel: [    0.005077] ACPI: Reserving SSDT table memory at [mem 0xcdfba000-0xcdfbd4a9]
+Sep  4 06:28:51 host kernel: [    0.005078] ACPI: Reserving FPDT table memory at [mem 0xcdfb9000-0xcdfb9043]
+Sep  4 06:28:51 host kernel: [    0.005078] ACPI: Reserving WSMT table memory at [mem 0xcdfb7000-0xcdfb7027]
+Sep  4 06:28:51 host kernel: [    0.005079] ACPI: Reserving SSDT table memory at [mem 0xcdfe5000-0xcdfe5041]
+Sep  4 06:28:51 host kernel: [    0.005079] ACPI: Reserving SSDT table memory at [mem 0xcdfe4000-0xcdfe4209]
+Sep  4 06:28:51 host kernel: [    0.005080] ACPI: Reserving SSDT table memory at [mem 0xcdfb6000-0xcdfb659f]
+Sep  4 06:28:51 host kernel: [    0.005080] ACPI: Reserving SSDT table memory at [mem 0xcdfb5000-0xcdfb5306]
+Sep  4 06:28:51 host kernel: [    0.005081] ACPI: Reserving SSDT table memory at [mem 0xcdfb4000-0xcdfb407c]
+Sep  4 06:28:51 host kernel: [    0.005082] ACPI: Reserving SSDT table memory at [mem 0xcdfb3000-0xcdfb3516]
+Sep  4 06:28:51 host kernel: [    0.005082] ACPI: Reserving BGRT table memory at [mem 0xcdfb8000-0xcdfb8037]
+Sep  4 06:28:51 host kernel: [    0.005137] No NUMA configuration found
+Sep  4 06:28:51 host kernel: [    0.005137] Faking a node at [mem 0x0000000000000000-0x000000020e2fffff]
+Sep  4 06:28:51 host kernel: [    0.005140] NODE_DATA(0) allocated [mem 0x20e2fc000-0x20e2fffff]
+Sep  4 06:28:51 host kernel: [    0.005154] Zone ranges:
+Sep  4 06:28:51 host kernel: [    0.005154]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Sep  4 06:28:51 host kernel: [    0.005155]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Sep  4 06:28:51 host kernel: [    0.005156]   Normal   [mem 0x0000000100000000-0x000000020e2fffff]
+Sep  4 06:28:51 host kernel: [    0.005157] Movable zone start for each node
+Sep  4 06:28:51 host kernel: [    0.005158] Early memory node ranges
+Sep  4 06:28:51 host kernel: [    0.005158]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Sep  4 06:28:51 host kernel: [    0.005159]   node   0: [mem 0x0000000000100000-0x00000000099fffff]
+Sep  4 06:28:51 host kernel: [    0.005160]   node   0: [mem 0x0000000009e00000-0x0000000009efffff]
+Sep  4 06:28:51 host kernel: [    0.005160]   node   0: [mem 0x0000000009f0f000-0x00000000b99e8fff]
+Sep  4 06:28:51 host kernel: [    0.005161]   node   0: [mem 0x00000000babe9000-0x00000000c8dfefff]
+Sep  4 06:28:51 host kernel: [    0.005162]   node   0: [mem 0x00000000cdfff000-0x00000000cdffffff]
+Sep  4 06:28:51 host kernel: [    0.005162]   node   0: [mem 0x0000000100000000-0x000000020e2fffff]
+Sep  4 06:28:51 host kernel: [    0.005163] Initmem setup node 0 [mem 0x0000000000001000-0x000000020e2fffff]
+Sep  4 06:28:51 host kernel: [    0.005166] On node 0, zone DMA: 1 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.005182] On node 0, zone DMA: 97 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.005323] On node 0, zone DMA32: 1024 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.010989] On node 0, zone DMA32: 15 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.011505] On node 0, zone DMA32: 4608 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.011710] On node 0, zone DMA32: 20992 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.020676] On node 0, zone Normal: 8192 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.020754] On node 0, zone Normal: 7424 pages in unavailable ranges
+Sep  4 06:28:51 host kernel: [    0.020863] ACPI: PM-Timer IO Port: 0x408
+Sep  4 06:28:51 host kernel: [    0.020869] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020870] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020871] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020871] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020872] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020872] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020873] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020873] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020874] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020874] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020875] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020875] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020876] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020876] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020876] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020877] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+Sep  4 06:28:51 host kernel: [    0.020890] IOAPIC[0]: apic_id 33, version 33, address 0xfec00000, GSI 0-23
+Sep  4 06:28:51 host kernel: [    0.020895] IOAPIC[1]: apic_id 34, version 33, address 0xfec01000, GSI 24-55
+Sep  4 06:28:51 host kernel: [    0.020896] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep  4 06:28:51 host kernel: [    0.020898] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep  4 06:28:51 host kernel: [    0.020900] ACPI: Using ACPI (MADT) for SMP configuration information
+Sep  4 06:28:51 host kernel: [    0.020901] ACPI: HPET id: 0x10228210 base: 0xfed00000
+Sep  4 06:28:51 host kernel: [    0.020909] e820: update [mem 0xb5a5a000-0xb5a82fff] usable ==> reserved
+Sep  4 06:28:51 host kernel: [    0.020919] smpboot: Allowing 16 CPUs, 4 hotplug CPUs
+Sep  4 06:28:51 host kernel: [    0.020937] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Sep  4 06:28:51 host kernel: [    0.020939] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000bffff]
+Sep  4 06:28:51 host kernel: [    0.020939] PM: hibernation: Registered nosave memory: [mem 0x000c0000-0x000fffff]
+Sep  4 06:28:51 host kernel: [    0.020940] PM: hibernation: Registered nosave memory: [mem 0x09a00000-0x09dfffff]
+Sep  4 06:28:51 host kernel: [    0.020942] PM: hibernation: Registered nosave memory: [mem 0x09f00000-0x09f0efff]
+Sep  4 06:28:51 host kernel: [    0.020943] PM: hibernation: Registered nosave memory: [mem 0xb5a59000-0xb5a82fff]
+Sep  4 06:28:51 host kernel: [    0.020944] PM: hibernation: Registered nosave memory: [mem 0xb5b28000-0xb5b28fff]
+Sep  4 06:28:51 host kernel: [    0.020945] PM: hibernation: Registered nosave memory: [mem 0xb5b35000-0xb5b35fff]
+Sep  4 06:28:51 host kernel: [    0.020946] PM: hibernation: Registered nosave memory: [mem 0xb99e9000-0xbabe8fff]
+Sep  4 06:28:51 host kernel: [    0.020948] PM: hibernation: Registered nosave memory: [mem 0xc8dff000-0xcbdfefff]
+Sep  4 06:28:51 host kernel: [    0.020948] PM: hibernation: Registered nosave memory: [mem 0xcbdff000-0xcdf7efff]
+Sep  4 06:28:51 host kernel: [    0.020948] PM: hibernation: Registered nosave memory: [mem 0xcdf7f000-0xcdffefff]
+Sep  4 06:28:51 host kernel: [    0.020950] PM: hibernation: Registered nosave memory: [mem 0xce000000-0xcfffffff]
+Sep  4 06:28:51 host kernel: [    0.020950] PM: hibernation: Registered nosave memory: [mem 0xd0000000-0xfebfffff]
+Sep  4 06:28:51 host kernel: [    0.020950] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec01fff]
+Sep  4 06:28:51 host kernel: [    0.020951] PM: hibernation: Registered nosave memory: [mem 0xfec02000-0xfec0ffff]
+Sep  4 06:28:51 host kernel: [    0.020951] PM: hibernation: Registered nosave memory: [mem 0xfec10000-0xfec10fff]
+Sep  4 06:28:51 host kernel: [    0.020952] PM: hibernation: Registered nosave memory: [mem 0xfec11000-0xfec1ffff]
+Sep  4 06:28:51 host kernel: [    0.020952] PM: hibernation: Registered nosave memory: [mem 0xfec20000-0xfec20fff]
+Sep  4 06:28:51 host kernel: [    0.020953] PM: hibernation: Registered nosave memory: [mem 0xfec21000-0xfed7ffff]
+Sep  4 06:28:51 host kernel: [    0.020953] PM: hibernation: Registered nosave memory: [mem 0xfed80000-0xfed81fff]
+Sep  4 06:28:51 host kernel: [    0.020954] PM: hibernation: Registered nosave memory: [mem 0xfed82000-0xfedfffff]
+Sep  4 06:28:51 host kernel: [    0.020954] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Sep  4 06:28:51 host kernel: [    0.020955] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xffffffff]
+Sep  4 06:28:51 host kernel: [    0.020956] [mem 0xd0000000-0xfebfffff] available for PCI devices
+Sep  4 06:28:51 host kernel: [    0.020957] Booting paravirtualized kernel on bare hardware
+Sep  4 06:28:51 host kernel: [    0.020960] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Sep  4 06:28:51 host kernel: [    0.025588] setup_percpu: NR_CPUS:64 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Sep  4 06:28:51 host kernel: [    0.026133] percpu: Embedded 54 pages/cpu s183272 r8192 d29720 u262144
+Sep  4 06:28:51 host kernel: [    0.026140] pcpu-alloc: s183272 r8192 d29720 u262144 alloc=1*2097152
+Sep  4 06:28:51 host kernel: [    0.026142] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Sep  4 06:28:51 host kernel: [    0.026163] Kernel command line: BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2 root=UUID=fa8eb582-80aa-4884-807b-b8895f8bd38b rw loglevel=3 quiet
+Sep  4 06:28:51 host kernel: [    0.026198] Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2", will be passed to user space.
+Sep  4 06:28:51 host kernel: [    0.027233] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.027743] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.027832] Fallback order for Node 0: 0 
+Sep  4 06:28:51 host kernel: [    0.027839] Built 1 zonelists, mobility grouping on.  Total pages: 1893509
+Sep  4 06:28:51 host kernel: [    0.027840] Policy zone: Normal
+Sep  4 06:28:51 host kernel: [    0.027842] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+Sep  4 06:28:51 host kernel: [    0.027883] software IO TLB: area num 16.
+Sep  4 06:28:51 host kernel: [    0.056739] Memory: 7327624K/7694908K available (18432K kernel code, 2762K rwdata, 6652K rodata, 2692K init, 1360K bss, 367024K reserved, 0K cma-reserved)
+Sep  4 06:28:51 host kernel: [    0.056790] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1
+Sep  4 06:28:51 host kernel: [    0.057843] Dynamic Preempt: voluntary
+Sep  4 06:28:51 host kernel: [    0.057887] rcu: Preemptible hierarchical RCU implementation.
+Sep  4 06:28:51 host kernel: [    0.057887] rcu: ^IRCU event tracing is enabled.
+Sep  4 06:28:51 host kernel: [    0.057887] rcu: ^IRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=16.
+Sep  4 06:28:51 host kernel: [    0.057888] ^ITrampoline variant of Tasks RCU enabled.
+Sep  4 06:28:51 host kernel: [    0.057889] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Sep  4 06:28:51 host kernel: [    0.057890] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16
+Sep  4 06:28:51 host kernel: [    0.058974] NR_IRQS: 4352, nr_irqs: 1096, preallocated irqs: 16
+Sep  4 06:28:51 host kernel: [    0.059167] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Sep  4 06:28:51 host kernel: [    0.059241] Console: colour dummy device 80x25
+Sep  4 06:28:51 host kernel: [    0.059243] printk: legacy console [tty0] enabled
+Sep  4 06:28:51 host kernel: [    0.059276] ACPI: Core revision 20230628
+Sep  4 06:28:51 host kernel: [    0.059472] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns
+Sep  4 06:28:51 host kernel: [    0.059491] APIC: Switch to symmetric I/O mode setup
+Sep  4 06:28:51 host kernel: [    0.060380] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR0, rdevid:160
+Sep  4 06:28:51 host kernel: [    0.060382] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR1, rdevid:160
+Sep  4 06:28:51 host kernel: [    0.060384] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR2, rdevid:160
+Sep  4 06:28:51 host kernel: [    0.060384] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR3, rdevid:160
+Sep  4 06:28:51 host kernel: [    0.060385] AMD-Vi: Using global IVHD EFR:0x206d73ef22254ade, EFR2:0x0
+Sep  4 06:28:51 host kernel: [    0.060698] APIC: Switched APIC routing to: physical flat
+Sep  4 06:28:51 host kernel: [    0.061430] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Sep  4 06:28:51 host kernel: [    0.065497] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1e36b0ff3ca, max_idle_ns: 440795298008 ns
+Sep  4 06:28:51 host kernel: [    0.065502] Calibrating delay loop (skipped), value calculated using timer frequency.. 4192.14 BogoMIPS (lpj=2096071)
+Sep  4 06:28:51 host kernel: [    0.065514] Zenbleed: please update your microcode for the most optimal fix
+Sep  4 06:28:51 host kernel: [    0.065516] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Sep  4 06:28:51 host kernel: [    0.065545] LVT offset 1 assigned for vector 0xf9
+Sep  4 06:28:51 host kernel: [    0.065607] LVT offset 2 assigned for vector 0xf4
+Sep  4 06:28:51 host kernel: [    0.065624] process: using mwait in idle threads
+Sep  4 06:28:51 host kernel: [    0.065625] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+Sep  4 06:28:51 host kernel: [    0.065626] Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+Sep  4 06:28:51 host kernel: [    0.065629] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Sep  4 06:28:51 host kernel: [    0.065630] Spectre V2 : Mitigation: Retpolines
+Sep  4 06:28:51 host kernel: [    0.065631] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Sep  4 06:28:51 host kernel: [    0.065631] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Sep  4 06:28:51 host kernel: [    0.065632] Spectre V2 : Enabling Speculation Barrier for firmware calls
+Sep  4 06:28:51 host kernel: [    0.065632] RETBleed: Mitigation: untrained return thunk
+Sep  4 06:28:51 host kernel: [    0.065634] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Sep  4 06:28:51 host kernel: [    0.065634] Spectre V2 : Selecting STIBP always-on mode to complement retbleed mitigation
+Sep  4 06:28:51 host kernel: [    0.065635] Spectre V2 : User space: Mitigation: STIBP always-on protection
+Sep  4 06:28:51 host kernel: [    0.065636] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+Sep  4 06:28:51 host kernel: [    0.065637] Speculative Return Stack Overflow: Mitigation: Safe RET
+Sep  4 06:28:51 host kernel: [    0.065640] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Sep  4 06:28:51 host kernel: [    0.065641] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Sep  4 06:28:51 host kernel: [    0.065642] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Sep  4 06:28:51 host kernel: [    0.065643] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Sep  4 06:28:51 host kernel: [    0.065644] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+Sep  4 06:28:51 host kernel: [    0.088446] Freeing SMP alternatives memory: 48K
+Sep  4 06:28:51 host kernel: [    0.088450] pid_max: default: 32768 minimum: 301
+Sep  4 06:28:51 host kernel: [    0.091531] LSM: initializing lsm=capability,selinux,integrity
+Sep  4 06:28:51 host kernel: [    0.091540] SELinux:  Initializing.
+Sep  4 06:28:51 host kernel: [    0.091576] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.091585] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.196383] smpboot: CPU0: AMD Ryzen 5 5500U with Radeon Graphics (family: 0x17, model: 0x68, stepping: 0x1)
+Sep  4 06:28:51 host kernel: [    0.196499] RCU Tasks: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1.
+Sep  4 06:28:51 host kernel: [    0.196499] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+Sep  4 06:28:51 host kernel: [    0.196499] ... version:                0
+Sep  4 06:28:51 host kernel: [    0.196499] ... bit width:              48
+Sep  4 06:28:51 host kernel: [    0.196499] ... generic registers:      6
+Sep  4 06:28:51 host kernel: [    0.196499] ... value mask:             0000ffffffffffff
+Sep  4 06:28:51 host kernel: [    0.196499] ... max period:             00007fffffffffff
+Sep  4 06:28:51 host kernel: [    0.196499] ... fixed-purpose events:   0
+Sep  4 06:28:51 host kernel: [    0.196499] ... event mask:             000000000000003f
+Sep  4 06:28:51 host kernel: [    0.196499] signal: max sigframe size: 1776
+Sep  4 06:28:51 host kernel: [    0.196499] rcu: Hierarchical SRCU implementation.
+Sep  4 06:28:51 host kernel: [    0.196499] rcu: ^IMax phase no-delay instances is 400.
+Sep  4 06:28:51 host kernel: [    0.201317] smp: Bringing up secondary CPUs ...
+Sep  4 06:28:51 host kernel: [    0.201410] smpboot: x86: Booting SMP configuration:
+Sep  4 06:28:51 host kernel: [    0.201412] .... node  #0, CPUs:        #2  #4  #6  #8 #10  #1  #3  #5  #7  #9 #11
+Sep  4 06:28:51 host kernel: [    0.209565] Spectre V2 : Update user space SMT mitigation: STIBP always-on
+Sep  4 06:28:51 host kernel: [    0.214521] smp: Brought up 1 node, 12 CPUs
+Sep  4 06:28:51 host kernel: [    0.214521] smpboot: Max logical packages: 2
+Sep  4 06:28:51 host kernel: [    0.214523] smpboot: Total of 12 processors activated (50305.70 BogoMIPS)
+Sep  4 06:28:51 host kernel: [    0.216962] devtmpfs: initialized
+Sep  4 06:28:51 host kernel: [    0.216962] ACPI: PM: Registering ACPI NVS region [mem 0x09f00000-0x09f0efff] (61440 bytes)
+Sep  4 06:28:51 host kernel: [    0.216962] ACPI: PM: Registering ACPI NVS region [mem 0xcbdff000-0xcdf7efff] (35127296 bytes)
+Sep  4 06:28:51 host kernel: [    0.217964] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Sep  4 06:28:51 host kernel: [    0.217969] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.218079] PM: RTC time: 06:23:10, date: 2024-09-04
+Sep  4 06:28:51 host kernel: [    0.218178] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Sep  4 06:28:51 host kernel: [    0.218320] audit: initializing netlink subsys (disabled)
+Sep  4 06:28:51 host kernel: [    0.218326] audit: type=2000 audit(1725430989.158:1): state=initialized audit_enabled=0 res=1
+Sep  4 06:28:51 host kernel: [    0.218326] thermal_sys: Registered thermal governor 'step_wise'
+Sep  4 06:28:51 host kernel: [    0.218326] thermal_sys: Registered thermal governor 'user_space'
+Sep  4 06:28:51 host kernel: [    0.218326] cpuidle: using governor menu
+Sep  4 06:28:51 host kernel: [    0.218527] Simple Boot Flag at 0x44 set to 0x1
+Sep  4 06:28:51 host kernel: [    0.218625] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+Sep  4 06:28:51 host kernel: [    0.218631] PCI: not using MMCONFIG
+Sep  4 06:28:51 host kernel: [    0.218633] PCI: Using configuration type 1 for base access
+Sep  4 06:28:51 host kernel: [    0.218634] PCI: Using configuration type 1 for extended access
+Sep  4 06:28:51 host kernel: [    0.219142] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Sep  4 06:28:51 host kernel: [    0.219159] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Sep  4 06:28:51 host kernel: [    0.219159] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Sep  4 06:28:51 host kernel: [    0.219547] ACPI: Added _OSI(Module Device)
+Sep  4 06:28:51 host kernel: [    0.219548] ACPI: Added _OSI(Processor Device)
+Sep  4 06:28:51 host kernel: [    0.219550] ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep  4 06:28:51 host kernel: [    0.219551] ACPI: Added _OSI(Processor Aggregator Device)
+Sep  4 06:28:51 host kernel: [    0.234023] ACPI: 19 ACPI AML tables successfully acquired and loaded
+Sep  4 06:28:51 host kernel: [    0.236104] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Sep  4 06:28:51 host kernel: [    0.237678] ACPI: _OSC evaluation for CPUs failed, trying _PDC
+Sep  4 06:28:51 host kernel: [    0.238064] ACPI: EC: EC started
+Sep  4 06:28:51 host kernel: [    0.238065] ACPI: EC: interrupt blocked
+Sep  4 06:28:51 host kernel: [    0.238582] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Sep  4 06:28:51 host kernel: [    0.238585] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC used to handle transactions
+Sep  4 06:28:51 host kernel: [    0.238586] ACPI: Interpreter enabled
+Sep  4 06:28:51 host kernel: [    0.238600] ACPI: PM: (supports S0 S4 S5)
+Sep  4 06:28:51 host kernel: [    0.238601] ACPI: Using IOAPIC for interrupt routing
+Sep  4 06:28:51 host kernel: [    0.238756] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+Sep  4 06:28:51 host kernel: [    0.240585] [Firmware Info]: PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] not reserved in ACPI motherboard resources
+Sep  4 06:28:51 host kernel: [    0.240588] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved as EfiMemoryMappedIO
+Sep  4 06:28:51 host kernel: [    0.240590] MMCONFIG [mem 0xf8000000-0xfbffffff] reserved to work around lack of ACPI motherboard _CRS
+Sep  4 06:28:51 host kernel: [    0.240597] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep  4 06:28:51 host kernel: [    0.240598] PCI: Using E820 reservations for host bridge windows
+Sep  4 06:28:51 host kernel: [    0.242533] ACPI: \_SB_.PCI0.GPP6.P0NV: New power resource
+Sep  4 06:28:51 host kernel: [    0.243124] ACPI: \_SB_.PCI0.GP17.XHC0.P0U0: New power resource
+Sep  4 06:28:51 host kernel: [    0.243213] ACPI: \_SB_.PCI0.GP17.XHC0.P3U0: New power resource
+Sep  4 06:28:51 host kernel: [    0.244106] ACPI: \_SB_.PCI0.GP17.XHC1.P0U1: New power resource
+Sep  4 06:28:51 host kernel: [    0.244194] ACPI: \_SB_.PCI0.GP17.XHC1.P3U1: New power resource
+Sep  4 06:28:51 host kernel: [    0.250430] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep  4 06:28:51 host kernel: [    0.250436] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Sep  4 06:28:51 host kernel: [    0.250521] acpi PNP0A08:00: _OSC: platform does not support [LTR]
+Sep  4 06:28:51 host kernel: [    0.250670] acpi PNP0A08:00: _OSC: OS now controls [PME PCIeCapability]
+Sep  4 06:28:51 host kernel: [    0.250679] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+Sep  4 06:28:51 host kernel: [    0.250971] PCI host bridge to bus 0000:00
+Sep  4 06:28:51 host kernel: [    0.250973] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Sep  4 06:28:51 host kernel: [    0.250975] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Sep  4 06:28:51 host kernel: [    0.250977] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Sep  4 06:28:51 host kernel: [    0.250979] pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000cffff window]
+Sep  4 06:28:51 host kernel: [    0.250981] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000effff window]
+Sep  4 06:28:51 host kernel: [    0.250983] pci_bus 0000:00: root bus resource [mem 0xd0000000-0xf7ffffff window]
+Sep  4 06:28:51 host kernel: [    0.250984] pci_bus 0000:00: root bus resource [mem 0xfc000000-0xfeafffff window]
+Sep  4 06:28:51 host kernel: [    0.250986] pci_bus 0000:00: root bus resource [mem 0xfed45000-0xfed811ff window]
+Sep  4 06:28:51 host kernel: [    0.250988] pci_bus 0000:00: root bus resource [mem 0xfed81900-0xfed81fff window]
+Sep  4 06:28:51 host kernel: [    0.250990] pci_bus 0000:00: root bus resource [mem 0xfedc0000-0xfedc0fff window]
+Sep  4 06:28:51 host kernel: [    0.250991] pci_bus 0000:00: root bus resource [mem 0xfedc6000-0xfedc6fff window]
+Sep  4 06:28:51 host kernel: [    0.250993] pci_bus 0000:00: root bus resource [mem 0x250200000-0xfcffffffff window]
+Sep  4 06:28:51 host kernel: [    0.250995] pci_bus 0000:00: root bus resource [bus 00-ff]
+Sep  4 06:28:51 host kernel: [    0.251011] pci 0000:00:00.0: [1022:1630] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.251094] pci 0000:00:00.2: [1022:1631] type 00 class 0x080600
+Sep  4 06:28:51 host kernel: [    0.251177] pci 0000:00:01.0: [1022:1632] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.251271] pci 0000:00:02.0: [1022:1632] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.251362] pci 0000:00:02.2: [1022:1634] type 01 class 0x060400
+Sep  4 06:28:51 host kernel: [    0.251452] pci 0000:00:02.2: PME# supported from D0 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.251577] pci 0000:00:02.4: [1022:1634] type 01 class 0x060400
+Sep  4 06:28:51 host kernel: [    0.251667] pci 0000:00:02.4: PME# supported from D0 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.251789] pci 0000:00:08.0: [1022:1632] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.251873] pci 0000:00:08.1: [1022:1635] type 01 class 0x060400
+Sep  4 06:28:51 host kernel: [    0.251895] pci 0000:00:08.1: enabling Extended Tags
+Sep  4 06:28:51 host kernel: [    0.251927] pci 0000:00:08.1: PME# supported from D0 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.252086] pci 0000:00:14.0: [1022:790b] type 00 class 0x0c0500
+Sep  4 06:28:51 host kernel: [    0.252217] pci 0000:00:14.3: [1022:790e] type 00 class 0x060100
+Sep  4 06:28:51 host kernel: [    0.252366] pci 0000:00:18.0: [1022:1448] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.252433] pci 0000:00:18.1: [1022:1449] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.252500] pci 0000:00:18.2: [1022:144a] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.252565] pci 0000:00:18.3: [1022:144b] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.252630] pci 0000:00:18.4: [1022:144c] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.252694] pci 0000:00:18.5: [1022:144d] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.252759] pci 0000:00:18.6: [1022:144e] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.252824] pci 0000:00:18.7: [1022:144f] type 00 class 0x060000
+Sep  4 06:28:51 host kernel: [    0.253002] pci 0000:01:00.0: [10ec:c822] type 00 class 0x028000
+Sep  4 06:28:51 host kernel: [    0.253022] pci 0000:01:00.0: reg 0x10: [io  0x2000-0x20ff]
+Sep  4 06:28:51 host kernel: [    0.253047] pci 0000:01:00.0: reg 0x18: [mem 0xd0500000-0xd050ffff 64bit]
+Sep  4 06:28:51 host kernel: [    0.253164] pci 0000:01:00.0: supports D1 D2
+Sep  4 06:28:51 host kernel: [    0.253165] pci 0000:01:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.253471] pci 0000:00:02.2: PCI bridge to [bus 01]
+Sep  4 06:28:51 host kernel: [    0.253475] pci 0000:00:02.2:   bridge window [io  0x2000-0x2fff]
+Sep  4 06:28:51 host kernel: [    0.253477] pci 0000:00:02.2:   bridge window [mem 0xd0500000-0xd05fffff]
+Sep  4 06:28:51 host kernel: [    0.253775] pci 0000:02:00.0: [1987:5012] type 00 class 0x010802
+Sep  4 06:28:51 host kernel: [    0.253820] pci 0000:02:00.0: reg 0x10: [mem 0xd0400000-0xd0403fff 64bit]
+Sep  4 06:28:51 host kernel: [    0.254544] pci 0000:00:02.4: PCI bridge to [bus 02]
+Sep  4 06:28:51 host kernel: [    0.254549] pci 0000:00:02.4:   bridge window [mem 0xd0400000-0xd04fffff]
+Sep  4 06:28:51 host kernel: [    0.254587] pci 0000:03:00.0: [1002:164c] type 00 class 0x030000
+Sep  4 06:28:51 host kernel: [    0.254599] pci 0000:03:00.0: reg 0x10: [mem 0xfce0000000-0xfcefffffff 64bit pref]
+Sep  4 06:28:51 host kernel: [    0.254607] pci 0000:03:00.0: reg 0x18: [mem 0xfcf0000000-0xfcf01fffff 64bit pref]
+Sep  4 06:28:51 host kernel: [    0.254612] pci 0000:03:00.0: reg 0x20: [io  0x1000-0x10ff]
+Sep  4 06:28:51 host kernel: [    0.254618] pci 0000:03:00.0: reg 0x24: [mem 0xd0300000-0xd037ffff]
+Sep  4 06:28:51 host kernel: [    0.254627] pci 0000:03:00.0: enabling Extended Tags
+Sep  4 06:28:51 host kernel: [    0.254675] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.254694] pci 0000:03:00.0: 126.016 Gb/s available PCIe bandwidth, limited by 8.0 GT/s PCIe x16 link at 0000:00:08.1 (capable of 252.048 Gb/s with 16.0 GT/s PCIe x16 link)
+Sep  4 06:28:51 host kernel: [    0.254790] pci 0000:03:00.1: [1002:1637] type 00 class 0x040300
+Sep  4 06:28:51 host kernel: [    0.254798] pci 0000:03:00.1: reg 0x10: [mem 0xd03c0000-0xd03c3fff]
+Sep  4 06:28:51 host kernel: [    0.254819] pci 0000:03:00.1: enabling Extended Tags
+Sep  4 06:28:51 host kernel: [    0.254849] pci 0000:03:00.1: PME# supported from D1 D2 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.254926] pci 0000:03:00.2: [1022:15df] type 00 class 0x108000
+Sep  4 06:28:51 host kernel: [    0.254940] pci 0000:03:00.2: reg 0x18: [mem 0xd0200000-0xd02fffff]
+Sep  4 06:28:51 host kernel: [    0.254950] pci 0000:03:00.2: reg 0x24: [mem 0xd03c4000-0xd03c5fff]
+Sep  4 06:28:51 host kernel: [    0.254958] pci 0000:03:00.2: enabling Extended Tags
+Sep  4 06:28:51 host kernel: [    0.255059] pci 0000:03:00.3: [1022:1639] type 00 class 0x0c0330
+Sep  4 06:28:51 host kernel: [    0.255071] pci 0000:03:00.3: reg 0x10: [mem 0xd0000000-0xd00fffff 64bit]
+Sep  4 06:28:51 host kernel: [    0.255095] pci 0000:03:00.3: enabling Extended Tags
+Sep  4 06:28:51 host kernel: [    0.255126] pci 0000:03:00.3: PME# supported from D0 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.255213] pci 0000:03:00.4: [1022:1639] type 00 class 0x0c0330
+Sep  4 06:28:51 host kernel: [    0.255224] pci 0000:03:00.4: reg 0x10: [mem 0xd0100000-0xd01fffff 64bit]
+Sep  4 06:28:51 host kernel: [    0.255249] pci 0000:03:00.4: enabling Extended Tags
+Sep  4 06:28:51 host kernel: [    0.255280] pci 0000:03:00.4: PME# supported from D0 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.255365] pci 0000:03:00.5: [1022:15e2] type 00 class 0x048000
+Sep  4 06:28:51 host kernel: [    0.255373] pci 0000:03:00.5: reg 0x10: [mem 0xd0380000-0xd03bffff]
+Sep  4 06:28:51 host kernel: [    0.255395] pci 0000:03:00.5: enabling Extended Tags
+Sep  4 06:28:51 host kernel: [    0.255424] pci 0000:03:00.5: PME# supported from D0 D3hot D3cold
+Sep  4 06:28:51 host kernel: [    0.255534] pci 0000:00:08.1: PCI bridge to [bus 03]
+Sep  4 06:28:51 host kernel: [    0.255537] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+Sep  4 06:28:51 host kernel: [    0.255540] pci 0000:00:08.1:   bridge window [mem 0xd0000000-0xd03fffff]
+Sep  4 06:28:51 host kernel: [    0.255543] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+Sep  4 06:28:51 host kernel: [    0.256394] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256396] ACPI: PCI: Interrupt link LNKA disabled
+Sep  4 06:28:51 host kernel: [    0.256462] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256463] ACPI: PCI: Interrupt link LNKB disabled
+Sep  4 06:28:51 host kernel: [    0.256517] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256519] ACPI: PCI: Interrupt link LNKC disabled
+Sep  4 06:28:51 host kernel: [    0.256584] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256585] ACPI: PCI: Interrupt link LNKD disabled
+Sep  4 06:28:51 host kernel: [    0.256645] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256646] ACPI: PCI: Interrupt link LNKE disabled
+Sep  4 06:28:51 host kernel: [    0.256694] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256695] ACPI: PCI: Interrupt link LNKF disabled
+Sep  4 06:28:51 host kernel: [    0.256743] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256744] ACPI: PCI: Interrupt link LNKG disabled
+Sep  4 06:28:51 host kernel: [    0.256792] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+Sep  4 06:28:51 host kernel: [    0.256794] ACPI: PCI: Interrupt link LNKH disabled
+Sep  4 06:28:51 host kernel: [    0.257986] Low-power S0 idle used by default for system suspend
+Sep  4 06:28:51 host kernel: [    0.258112] ACPI: EC: interrupt unblocked
+Sep  4 06:28:51 host kernel: [    0.258113] ACPI: EC: event unblocked
+Sep  4 06:28:51 host kernel: [    0.258120] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Sep  4 06:28:51 host kernel: [    0.258121] ACPI: EC: GPE=0x3
+Sep  4 06:28:51 host kernel: [    0.258123] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC initialization complete
+Sep  4 06:28:51 host kernel: [    0.258124] ACPI: \_SB_.PCI0.LPC0.EC0_: EC: Used to handle transactions and events
+Sep  4 06:28:51 host kernel: [    0.258159] iommu: Default domain type: Translated
+Sep  4 06:28:51 host kernel: [    0.258161] iommu: DMA domain TLB invalidation policy: lazy mode
+Sep  4 06:28:51 host kernel: [    0.258223] SCSI subsystem initialized
+Sep  4 06:28:51 host kernel: [    0.258231] libata version 3.00 loaded.
+Sep  4 06:28:51 host kernel: [    0.258231] ACPI: bus type USB registered
+Sep  4 06:28:51 host kernel: [    0.258231] usbcore: registered new interface driver usbfs
+Sep  4 06:28:51 host kernel: [    0.258231] usbcore: registered new interface driver hub
+Sep  4 06:28:51 host kernel: [    0.258231] usbcore: registered new device driver usb
+Sep  4 06:28:51 host kernel: [    0.258231] pps_core: LinuxPPS API ver. 1 registered
+Sep  4 06:28:51 host kernel: [    0.258231] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Sep  4 06:28:51 host kernel: [    0.258231] PTP clock support registered
+Sep  4 06:28:51 host kernel: [    0.258502] efivars: Registered efivars operations
+Sep  4 06:28:51 host kernel: [    0.258529] Advanced Linux Sound Architecture Driver Initialized.
+Sep  4 06:28:51 host kernel: [    0.258707] NetLabel: Initializing
+Sep  4 06:28:51 host kernel: [    0.258708] NetLabel:  domain hash size = 128
+Sep  4 06:28:51 host kernel: [    0.258709] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Sep  4 06:28:51 host kernel: [    0.258729] NetLabel:  unlabeled traffic allowed by default
+Sep  4 06:28:51 host kernel: [    0.258746] PCI: Using ACPI for IRQ routing
+Sep  4 06:28:51 host kernel: [    0.261074] PCI: pci_cache_line_size set to 64 bytes
+Sep  4 06:28:51 host kernel: [    0.261510] resource: Expanded resource Reserved due to conflict with PCI Bus 0000:00
+Sep  4 06:28:51 host kernel: [    0.261511] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+Sep  4 06:28:51 host kernel: [    0.261513] e820: reserve RAM buffer [mem 0x09a00000-0x0bffffff]
+Sep  4 06:28:51 host kernel: [    0.261515] e820: reserve RAM buffer [mem 0x09f00000-0x0bffffff]
+Sep  4 06:28:51 host kernel: [    0.261516] e820: reserve RAM buffer [mem 0xb5a59000-0xb7ffffff]
+Sep  4 06:28:51 host kernel: [    0.261517] e820: reserve RAM buffer [mem 0xb5b28018-0xb7ffffff]
+Sep  4 06:28:51 host kernel: [    0.261518] e820: reserve RAM buffer [mem 0xb99e9000-0xbbffffff]
+Sep  4 06:28:51 host kernel: [    0.261520] e820: reserve RAM buffer [mem 0xc8dff000-0xcbffffff]
+Sep  4 06:28:51 host kernel: [    0.261521] e820: reserve RAM buffer [mem 0xce000000-0xcfffffff]
+Sep  4 06:28:51 host kernel: [    0.261522] e820: reserve RAM buffer [mem 0x20e300000-0x20fffffff]
+Sep  4 06:28:51 host kernel: [    0.261581] pci 0000:03:00.0: vgaarb: setting as boot VGA device
+Sep  4 06:28:51 host kernel: [    0.261581] pci 0000:03:00.0: vgaarb: bridge control possible
+Sep  4 06:28:51 host kernel: [    0.261581] pci 0000:03:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+Sep  4 06:28:51 host kernel: [    0.261581] vgaarb: loaded
+Sep  4 06:28:51 host kernel: [    0.261838] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Sep  4 06:28:51 host kernel: [    0.261843] hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+Sep  4 06:28:51 host kernel: [    0.266163] clocksource: Switched to clocksource tsc-early
+Sep  4 06:28:51 host kernel: [    0.266346] VFS: Disk quotas dquot_6.6.0
+Sep  4 06:28:51 host kernel: [    0.266370] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Sep  4 06:28:51 host kernel: [    0.266472] pnp: PnP ACPI init
+Sep  4 06:28:51 host kernel: [    0.268741] system 00:00: [mem 0xfec00000-0xfec01fff] could not be reserved
+Sep  4 06:28:51 host kernel: [    0.268744] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268747] system 00:00: [mem 0xfdd00000-0xfddfffff] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268949] system 00:03: [io  0x0400-0x04cf] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268952] system 00:03: [io  0x04d0-0x04d1] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268954] system 00:03: [io  0x04d6] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268956] system 00:03: [io  0x0c00-0x0c01] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268958] system 00:03: [io  0x0c14] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268960] system 00:03: [io  0x0c50-0x0c52] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268962] system 00:03: [io  0x0c6c] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268963] system 00:03: [io  0x0c6f] has been reserved
+Sep  4 06:28:51 host kernel: [    0.268965] system 00:03: [io  0x0cd0-0x0cdb] has been reserved
+Sep  4 06:28:51 host kernel: [    0.269026] system 00:04: [mem 0xff000000-0xffffffff] has been reserved
+Sep  4 06:28:51 host kernel: [    0.269877] pnp: PnP ACPI: found 5 devices
+Sep  4 06:28:51 host kernel: [    0.276385] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Sep  4 06:28:51 host kernel: [    0.276420] NET: Registered PF_INET protocol family
+Sep  4 06:28:51 host kernel: [    0.276495] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.277633] tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.277640] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.277644] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.277706] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.277876] TCP: Hash tables configured (established 65536 bind 65536)
+Sep  4 06:28:51 host kernel: [    0.277950] UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.277970] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Sep  4 06:28:51 host kernel: [    0.278031] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Sep  4 06:28:51 host kernel: [    0.278135] RPC: Registered named UNIX socket transport module.
+Sep  4 06:28:51 host kernel: [    0.278137] RPC: Registered udp transport module.
+Sep  4 06:28:51 host kernel: [    0.278138] RPC: Registered tcp transport module.
+Sep  4 06:28:51 host kernel: [    0.278139] RPC: Registered tcp-with-tls transport module.
+Sep  4 06:28:51 host kernel: [    0.278140] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Sep  4 06:28:51 host kernel: [    0.278614] pci 0000:00:02.2: PCI bridge to [bus 01]
+Sep  4 06:28:51 host kernel: [    0.278619] pci 0000:00:02.2:   bridge window [io  0x2000-0x2fff]
+Sep  4 06:28:51 host kernel: [    0.278624] pci 0000:00:02.2:   bridge window [mem 0xd0500000-0xd05fffff]
+Sep  4 06:28:51 host kernel: [    0.278631] pci 0000:00:02.4: PCI bridge to [bus 02]
+Sep  4 06:28:51 host kernel: [    0.278635] pci 0000:00:02.4:   bridge window [mem 0xd0400000-0xd04fffff]
+Sep  4 06:28:51 host kernel: [    0.278643] pci 0000:00:08.1: PCI bridge to [bus 03]
+Sep  4 06:28:51 host kernel: [    0.278645] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+Sep  4 06:28:51 host kernel: [    0.278648] pci 0000:00:08.1:   bridge window [mem 0xd0000000-0xd03fffff]
+Sep  4 06:28:51 host kernel: [    0.278651] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+Sep  4 06:28:51 host kernel: [    0.278657] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Sep  4 06:28:51 host kernel: [    0.278659] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Sep  4 06:28:51 host kernel: [    0.278661] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Sep  4 06:28:51 host kernel: [    0.278663] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000cffff window]
+Sep  4 06:28:51 host kernel: [    0.278665] pci_bus 0000:00: resource 8 [mem 0x000d0000-0x000effff window]
+Sep  4 06:28:51 host kernel: [    0.278667] pci_bus 0000:00: resource 9 [mem 0xd0000000-0xf7ffffff window]
+Sep  4 06:28:51 host kernel: [    0.278668] pci_bus 0000:00: resource 10 [mem 0xfc000000-0xfeafffff window]
+Sep  4 06:28:51 host kernel: [    0.278670] pci_bus 0000:00: resource 11 [mem 0xfed45000-0xfed811ff window]
+Sep  4 06:28:51 host kernel: [    0.278672] pci_bus 0000:00: resource 12 [mem 0xfed81900-0xfed81fff window]
+Sep  4 06:28:51 host kernel: [    0.278674] pci_bus 0000:00: resource 13 [mem 0xfedc0000-0xfedc0fff window]
+Sep  4 06:28:51 host kernel: [    0.278676] pci_bus 0000:00: resource 14 [mem 0xfedc6000-0xfedc6fff window]
+Sep  4 06:28:51 host kernel: [    0.278677] pci_bus 0000:00: resource 15 [mem 0x250200000-0xfcffffffff window]
+Sep  4 06:28:51 host kernel: [    0.278680] pci_bus 0000:01: resource 0 [io  0x2000-0x2fff]
+Sep  4 06:28:51 host kernel: [    0.278681] pci_bus 0000:01: resource 1 [mem 0xd0500000-0xd05fffff]
+Sep  4 06:28:51 host kernel: [    0.278683] pci_bus 0000:02: resource 1 [mem 0xd0400000-0xd04fffff]
+Sep  4 06:28:51 host kernel: [    0.278685] pci_bus 0000:03: resource 0 [io  0x1000-0x1fff]
+Sep  4 06:28:51 host kernel: [    0.278687] pci_bus 0000:03: resource 1 [mem 0xd0000000-0xd03fffff]
+Sep  4 06:28:51 host kernel: [    0.278689] pci_bus 0000:03: resource 2 [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+Sep  4 06:28:51 host kernel: [    0.279082] pci 0000:03:00.1: D0 power state depends on 0000:03:00.0
+Sep  4 06:28:51 host kernel: [    0.279089] pci 0000:03:00.3: extending delay after power-on from D3hot to 20 msec
+Sep  4 06:28:51 host kernel: [    0.293117] pci 0000:03:00.3: quirk_usb_early_handoff+0x0/0x7a0 took 13697 usecs
+Sep  4 06:28:51 host kernel: [    0.293126] pci 0000:03:00.4: extending delay after power-on from D3hot to 20 msec
+Sep  4 06:28:51 host kernel: [    0.328792] pci 0000:03:00.4: quirk_usb_early_handoff+0x0/0x7a0 took 34827 usecs
+Sep  4 06:28:51 host kernel: [    0.328798] PCI: CLS 64 bytes, default 64
+Sep  4 06:28:51 host kernel: [    0.328808] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+Sep  4 06:28:51 host kernel: [    0.328867] Unpacking initramfs...
+Sep  4 06:28:51 host kernel: [    0.328868] pci 0000:00:01.0: Adding to iommu group 0
+Sep  4 06:28:51 host kernel: [    0.328892] pci 0000:00:02.0: Adding to iommu group 1
+Sep  4 06:28:51 host kernel: [    0.328909] pci 0000:00:02.2: Adding to iommu group 2
+Sep  4 06:28:51 host kernel: [    0.328925] pci 0000:00:02.4: Adding to iommu group 3
+Sep  4 06:28:51 host kernel: [    0.328951] pci 0000:00:08.0: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.328964] pci 0000:00:08.1: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.328990] pci 0000:00:14.0: Adding to iommu group 5
+Sep  4 06:28:51 host kernel: [    0.329004] pci 0000:00:14.3: Adding to iommu group 5
+Sep  4 06:28:51 host kernel: [    0.329064] pci 0000:00:18.0: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329077] pci 0000:00:18.1: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329091] pci 0000:00:18.2: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329105] pci 0000:00:18.3: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329119] pci 0000:00:18.4: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329134] pci 0000:00:18.5: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329148] pci 0000:00:18.6: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329163] pci 0000:00:18.7: Adding to iommu group 6
+Sep  4 06:28:51 host kernel: [    0.329180] pci 0000:01:00.0: Adding to iommu group 7
+Sep  4 06:28:51 host kernel: [    0.329196] pci 0000:02:00.0: Adding to iommu group 8
+Sep  4 06:28:51 host kernel: [    0.329208] pci 0000:03:00.0: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.329215] pci 0000:03:00.1: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.329221] pci 0000:03:00.2: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.329228] pci 0000:03:00.3: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.329234] pci 0000:03:00.4: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.329240] pci 0000:03:00.5: Adding to iommu group 4
+Sep  4 06:28:51 host kernel: [    0.330148] pci 0000:00:00.2: can't derive routing for PCI INT A
+Sep  4 06:28:51 host kernel: [    0.330153] pci 0000:00:00.2: PCI INT A: not connected
+Sep  4 06:28:51 host kernel: [    0.330446] AMD-Vi: Extended features (0x206d73ef22254ade, 0x0): PPR X2APIC NX GT IA GA PC GA_vAPIC
+Sep  4 06:28:51 host kernel: [    0.330456] AMD-Vi: Interrupt remapping enabled
+Sep  4 06:28:51 host kernel: [    0.330457] AMD-Vi: X2APIC enabled
+Sep  4 06:28:51 host kernel: [    0.330620] AMD-Vi: Virtual APIC enabled
+Sep  4 06:28:51 host kernel: [    0.330629] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Sep  4 06:28:51 host kernel: [    0.330630] software IO TLB: mapped [mem 0x00000000c4531000-0x00000000c8531000] (64MB)
+Sep  4 06:28:51 host kernel: [    0.332173] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Sep  4 06:28:51 host kernel: [    0.332175] RAPL PMU: hw unit of domain package 2^-16 Joules
+Sep  4 06:28:51 host kernel: [    0.332179] LVT offset 0 assigned for vector 0x400
+Sep  4 06:28:51 host kernel: [    0.332669] perf: AMD IBS detected (0x000003ff)
+Sep  4 06:28:51 host kernel: [    0.334074] amd_uncore: 4 amd_df counters detected
+Sep  4 06:28:51 host kernel: [    0.334085] amd_uncore: 6 amd_l3 counters detected
+Sep  4 06:28:51 host kernel: [    0.335170] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+Sep  4 06:28:51 host kernel: [    0.364576] Initialise system trusted keyrings
+Sep  4 06:28:51 host kernel: [    0.364626] workingset: timestamp_bits=40 max_order=21 bucket_order=0
+Sep  4 06:28:51 host kernel: [    0.364805] NFS: Registering the id_resolver key type
+Sep  4 06:28:51 host kernel: [    0.364810] Key type id_resolver registered
+Sep  4 06:28:51 host kernel: [    0.364811] Key type id_legacy registered
+Sep  4 06:28:51 host kernel: [    0.364856] 9p: Installing v9fs 9p2000 file system support
+Sep  4 06:28:51 host kernel: [    0.376408] Key type asymmetric registered
+Sep  4 06:28:51 host kernel: [    0.376413] Asymmetric key parser 'x509' registered
+Sep  4 06:28:51 host kernel: [    0.376437] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Sep  4 06:28:51 host kernel: [    0.376452] io scheduler mq-deadline registered
+Sep  4 06:28:51 host kernel: [    0.376453] io scheduler kyber registered
+Sep  4 06:28:51 host kernel: [    0.376792] pcieport 0000:00:02.2: PME: Signaling with IRQ 28
+Sep  4 06:28:51 host kernel: [    0.376939] pcieport 0000:00:02.4: PME: Signaling with IRQ 29
+Sep  4 06:28:51 host kernel: [    0.377079] pcieport 0000:00:08.1: PME: Signaling with IRQ 30
+Sep  4 06:28:51 host kernel: [    0.379161] ACPI: AC: AC Adapter [ACAD] (off-line)
+Sep  4 06:28:51 host kernel: [    0.379248] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Sep  4 06:28:51 host kernel: [    0.379275] ACPI: button: Power Button [PWRB]
+Sep  4 06:28:51 host kernel: [    0.379331] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input1
+Sep  4 06:28:51 host kernel: [    0.379353] ACPI: button: Lid Switch [LID0]
+Sep  4 06:28:51 host kernel: [    0.379433] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+Sep  4 06:28:51 host kernel: [    0.379635] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0f/LNXVIDEO:00/input/input2
+Sep  4 06:28:51 host kernel: [    0.379745] Estimated ratio of average max frequency by base frequency (times 1024): 1501
+Sep  4 06:28:51 host kernel: [    0.379767] Monitor-Mwait will be used to enter C-1 state
+Sep  4 06:28:51 host kernel: [    0.379777] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.379929] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.380102] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.380272] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.380399] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.380570] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.380697] ACPI: \_SB_.PLTF.C006: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.380859] ACPI: \_SB_.PLTF.C007: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.383089] Freeing initrd memory: 33692K
+Sep  4 06:28:51 host kernel: [    0.383104] ACPI: \_SB_.PLTF.C008: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.383224] ACPI: \_SB_.PLTF.C009: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.383395] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.383615] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Sep  4 06:28:51 host kernel: [    0.384148] thermal LNXTHERM:00: registered as thermal_zone0
+Sep  4 06:28:51 host kernel: [    0.384149] ACPI: thermal: Thermal Zone [TZ01] (16 C)
+Sep  4 06:28:51 host kernel: [    0.384279] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Sep  4 06:28:51 host kernel: [    0.384985] Non-volatile memory driver v1.3
+Sep  4 06:28:51 host kernel: [    0.384987] Linux agpgart interface v0.103
+Sep  4 06:28:51 host kernel: [    0.385265] ACPI: battery: Slot [BAT1] (battery present)
+Sep  4 06:28:51 host kernel: [    0.385358] ACPI: bus type drm_connector registered
+Sep  4 06:28:51 host kernel: [    0.388286] loop: module loaded
+Sep  4 06:28:51 host kernel: [    0.388591] e100: Intel(R) PRO/100 Network Driver
+Sep  4 06:28:51 host kernel: [    0.388593] e100: Copyright(c) 1999-2006 Intel Corporation
+Sep  4 06:28:51 host kernel: [    0.388603] e1000: Intel(R) PRO/1000 Network Driver
+Sep  4 06:28:51 host kernel: [    0.388604] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Sep  4 06:28:51 host kernel: [    0.388615] e1000e: Intel(R) PRO/1000 Network Driver
+Sep  4 06:28:51 host kernel: [    0.388615] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Sep  4 06:28:51 host kernel: [    0.388629] sky2: driver version 1.30
+Sep  4 06:28:51 host kernel: [    0.388835] xhci_hcd 0000:03:00.3: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.388873] xhci_hcd 0000:03:00.3: new USB bus registered, assigned bus number 1
+Sep  4 06:28:51 host kernel: [    0.388959] xhci_hcd 0000:03:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+Sep  4 06:28:51 host kernel: [    0.389361] xhci_hcd 0000:03:00.3: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.389402] xhci_hcd 0000:03:00.3: new USB bus registered, assigned bus number 2
+Sep  4 06:28:51 host kernel: [    0.389405] xhci_hcd 0000:03:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+Sep  4 06:28:51 host kernel: [    0.389445] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.07
+Sep  4 06:28:51 host kernel: [    0.389448] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 06:28:51 host kernel: [    0.389449] usb usb1: Product: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.389451] usb usb1: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 06:28:51 host kernel: [    0.389453] usb usb1: SerialNumber: 0000:03:00.3
+Sep  4 06:28:51 host kernel: [    0.389575] hub 1-0:1.0: USB hub found
+Sep  4 06:28:51 host kernel: [    0.389582] hub 1-0:1.0: 4 ports detected
+Sep  4 06:28:51 host kernel: [    0.390370] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+Sep  4 06:28:51 host kernel: [    0.390389] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.07
+Sep  4 06:28:51 host kernel: [    0.390391] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 06:28:51 host kernel: [    0.390393] usb usb2: Product: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.390394] usb usb2: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 06:28:51 host kernel: [    0.390396] usb usb2: SerialNumber: 0000:03:00.3
+Sep  4 06:28:51 host kernel: [    0.390485] hub 2-0:1.0: USB hub found
+Sep  4 06:28:51 host kernel: [    0.390490] hub 2-0:1.0: 2 ports detected
+Sep  4 06:28:51 host kernel: [    0.390862] xhci_hcd 0000:03:00.4: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.390898] xhci_hcd 0000:03:00.4: new USB bus registered, assigned bus number 3
+Sep  4 06:28:51 host kernel: [    0.390980] xhci_hcd 0000:03:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+Sep  4 06:28:51 host kernel: [    0.391361] xhci_hcd 0000:03:00.4: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.391392] xhci_hcd 0000:03:00.4: new USB bus registered, assigned bus number 4
+Sep  4 06:28:51 host kernel: [    0.391395] xhci_hcd 0000:03:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+Sep  4 06:28:51 host kernel: [    0.391421] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.07
+Sep  4 06:28:51 host kernel: [    0.391424] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 06:28:51 host kernel: [    0.391425] usb usb3: Product: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.391427] usb usb3: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 06:28:51 host kernel: [    0.391428] usb usb3: SerialNumber: 0000:03:00.4
+Sep  4 06:28:51 host kernel: [    0.391549] hub 3-0:1.0: USB hub found
+Sep  4 06:28:51 host kernel: [    0.391556] hub 3-0:1.0: 4 ports detected
+Sep  4 06:28:51 host kernel: [    0.392565] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+Sep  4 06:28:51 host kernel: [    0.392586] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.07
+Sep  4 06:28:51 host kernel: [    0.392588] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 06:28:51 host kernel: [    0.392590] usb usb4: Product: xHCI Host Controller
+Sep  4 06:28:51 host kernel: [    0.392592] usb usb4: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 06:28:51 host kernel: [    0.392594] usb usb4: SerialNumber: 0000:03:00.4
+Sep  4 06:28:51 host kernel: [    0.392719] hub 4-0:1.0: USB hub found
+Sep  4 06:28:51 host kernel: [    0.392724] hub 4-0:1.0: 2 ports detected
+Sep  4 06:28:51 host kernel: [    0.393082] usbcore: registered new interface driver usblp
+Sep  4 06:28:51 host kernel: [    0.393104] usbcore: registered new interface driver usb-storage
+Sep  4 06:28:51 host kernel: [    0.393132] i8042: PNP: PS/2 Controller [PNP0303:KBC0] at 0x60,0x64 irq 1
+Sep  4 06:28:51 host kernel: [    0.393134] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+Sep  4 06:28:51 host kernel: [    0.394650] serio: i8042 KBD port at 0x60,0x64 irq 1
+Sep  4 06:28:51 host kernel: [    0.394861] rtc_cmos 00:01: RTC can wake from S4
+Sep  4 06:28:51 host kernel: [    0.395128] rtc_cmos 00:01: registered as rtc0
+Sep  4 06:28:51 host kernel: [    0.395154] rtc_cmos 00:01: alarms up to one month, 114 bytes nvram
+Sep  4 06:28:51 host kernel: [    0.395178] fail to initialize ptp_kvm
+Sep  4 06:28:51 host kernel: [    0.395252] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+Sep  4 06:28:51 host kernel: [    0.395439] [drm] Initialized simpledrm 1.0.0 20200625 for simple-framebuffer.0 on minor 0
+Sep  4 06:28:51 host kernel: [    0.397361] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+Sep  4 06:28:51 host kernel: [    0.400437] Console: switching to colour frame buffer device 240x67
+Sep  4 06:28:51 host kernel: [    0.404321] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+Sep  4 06:28:51 host kernel: [    0.404487] hid: raw HID events driver (C) Jiri Kosina
+Sep  4 06:28:51 host kernel: [    0.404838] usbcore: registered new interface driver usbhid
+Sep  4 06:28:51 host kernel: [    0.404842] usbhid: USB HID core driver
+Sep  4 06:28:51 host kernel: [    0.405409] snd_hda_intel 0000:03:00.1: enabling device (0000 -> 0002)
+Sep  4 06:28:51 host kernel: [    0.406527] Initializing XFRM netlink socket
+Sep  4 06:28:51 host kernel: [    0.406564] NET: Registered PF_INET6 protocol family
+Sep  4 06:28:51 host kernel: [    0.406904] Segment Routing with IPv6
+Sep  4 06:28:51 host kernel: [    0.406911] In-situ OAM (IOAM) with IPv6
+Sep  4 06:28:51 host kernel: [    0.406940] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Sep  4 06:28:51 host kernel: [    0.407080] NET: Registered PF_PACKET protocol family
+Sep  4 06:28:51 host kernel: [    0.407100] 9pnet: Installing 9P2000 support
+Sep  4 06:28:51 host kernel: [    0.407118] Key type dns_resolver registered
+Sep  4 06:28:51 host kernel: [    0.409120] snd_hda_intel 0000:03:00.1: Cannot probe codecs, giving up
+Sep  4 06:28:51 host kernel: [    0.409843] microcode: Current revision: 0x08608103
+Sep  4 06:28:51 host kernel: [    0.410140] IPI shorthand broadcast: enabled
+Sep  4 06:28:51 host kernel: [    0.414264] sched_clock: Marking stable (413543316, 304896)->(1169485602, -755637390)
+Sep  4 06:28:51 host kernel: [    0.414408] registered taskstats version 1
+Sep  4 06:28:51 host kernel: [    0.414409] Loading compiled-in X.509 certificates
+Sep  4 06:28:51 host kernel: [    0.416739] PM:   Magic number: 8:774:366
+Sep  4 06:28:51 host kernel: [    0.416762] msr msr5: hash matches
+Sep  4 06:28:51 host kernel: [    0.416789] printk: legacy console [netcon0] enabled
+Sep  4 06:28:51 host kernel: [    0.416791] netconsole: network logging started
+Sep  4 06:28:51 host kernel: [    0.416963] acpi_cpufreq: overriding BIOS provided _PSD data
+Sep  4 06:28:51 host kernel: [    0.417845] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Sep  4 06:28:51 host kernel: [    0.420111] modprobe (116) used greatest stack depth: 13592 bytes left
+Sep  4 06:28:51 host kernel: [    0.421719] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Sep  4 06:28:51 host kernel: [    0.422091] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+Sep  4 06:28:51 host kernel: [    0.422119] ALSA device list:
+Sep  4 06:28:51 host kernel: [    0.422122]   No soundcards found.
+Sep  4 06:28:51 host kernel: [    0.422819] Freeing unused kernel image (initmem) memory: 2692K
+Sep  4 06:28:51 host kernel: [    0.422933] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Sep  4 06:28:51 host kernel: [    0.422940] cfg80211: failed to load regulatory.db
+Sep  4 06:28:51 host kernel: [    0.432239] Write protecting the kernel read-only data: 26624k
+Sep  4 06:28:51 host kernel: [    0.433106] Freeing unused kernel image (rodata/data gap) memory: 1540K
+Sep  4 06:28:51 host kernel: [    0.489312] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Sep  4 06:28:51 host kernel: [    0.489318] Run /init as init process
+Sep  4 06:28:51 host kernel: [    0.489319]   with arguments:
+Sep  4 06:28:51 host kernel: [    0.489320]     /init
+Sep  4 06:28:51 host kernel: [    0.489321]   with environment:
+Sep  4 06:28:51 host kernel: [    0.489321]     HOME=/
+Sep  4 06:28:51 host kernel: [    0.489322]     TERM=linux
+Sep  4 06:28:51 host kernel: [    0.489323]     BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2
+Sep  4 06:28:51 host kernel: [    0.516744] systemd-tmpfile (139) used greatest stack depth: 13392 bytes left
+Sep  4 06:28:51 host kernel: [    0.630903] usb 3-2: new full-speed USB device number 2 using xhci_hcd
+Sep  4 06:28:51 host kernel: [    0.630936] usb 1-4: new high-speed USB device number 2 using xhci_hcd
+Sep  4 06:28:51 host kernel: [    0.777191] usb 3-2: New USB device found, idVendor=1358, idProduct=c123, bcdDevice= 0.00
+Sep  4 06:28:51 host kernel: [    0.777201] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep  4 06:28:51 host kernel: [    0.777207] usb 3-2: Product: Bluetooth Radio
+Sep  4 06:28:51 host kernel: [    0.777212] usb 3-2: Manufacturer: Realtek
+Sep  4 06:28:51 host kernel: [    0.777217] usb 3-2: SerialNumber: 00e04c000001
+Sep  4 06:28:51 host kernel: [    0.787884] usb 1-4: New USB device found, idVendor=13d3, idProduct=56f9, bcdDevice=19.02
+Sep  4 06:28:51 host kernel: [    0.787890] usb 1-4: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+Sep  4 06:28:51 host kernel: [    0.787892] usb 1-4: Product: ov9734_azurewave_camera
+Sep  4 06:28:51 host kernel: [    0.787894] usb 1-4: Manufacturer: Azurewave
+Sep  4 06:28:51 host kernel: [    0.787896] usb 1-4: SerialNumber: 0x0001
+Sep  4 06:28:51 host kernel: [    0.874077] usb 2-2: new SuperSpeed Plus Gen 2x1 USB device number 2 using xhci_hcd
+Sep  4 06:28:51 host kernel: [    0.887502] usb 2-2: New USB device found, idVendor=0951, idProduct=1780, bcdDevice= 1.00
+Sep  4 06:28:51 host kernel: [    0.887512] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep  4 06:28:51 host kernel: [    0.887519] usb 2-2: Product: XS1000
+Sep  4 06:28:51 host kernel: [    0.887523] usb 2-2: Manufacturer: Kingston
+Sep  4 06:28:51 host kernel: [    0.887528] usb 2-2: SerialNumber: 50026B728202CFBF
+Sep  4 06:28:51 host kernel: [    0.888681] usb-storage 2-2:1.0: USB Mass Storage device detected
+Sep  4 06:28:51 host kernel: [    0.888883] scsi host0: usb-storage 2-2:1.0
+Sep  4 06:28:51 host kernel: [    0.901912] usb 3-3: new full-speed USB device number 3 using xhci_hcd
+Sep  4 06:28:51 host kernel: [    1.065189] usb 3-3: New USB device found, idVendor=27c6, idProduct=5125, bcdDevice= 2.00
+Sep  4 06:28:51 host kernel: [    1.065201] usb 3-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep  4 06:28:51 host kernel: [    1.065207] usb 3-3: Product: Goodix Fingerprint Device 
+Sep  4 06:28:51 host kernel: [    1.065212] usb 3-3: Manufacturer: Shenzhen Goodix Technology Co.,Ltd.
+Sep  4 06:28:51 host kernel: [    1.065217] usb 3-3: SerialNumber: 00000000001A
+Sep  4 06:28:51 host kernel: [    1.307536] tsc: Refined TSC clocksource calibration: 2099.719 MHz
+Sep  4 06:28:51 host kernel: [    1.307557] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1e4426f03a0, max_idle_ns: 440795224463 ns
+Sep  4 06:28:51 host kernel: [    1.307628] clocksource: Switched to clocksource tsc
+Sep  4 06:28:51 host kernel: [    1.885550] scsi 0:0:0:0: Direct-Access     Kingston XS1000           1000 PQ: 0 ANSI: 6
+Sep  4 06:28:51 host kernel: [    1.885923] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Sep  4 06:28:51 host kernel: [    1.888419] sd 0:0:0:0: [sda] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+Sep  4 06:28:51 host kernel: [    1.889383] sd 0:0:0:0: [sda] Write Protect is off
+Sep  4 06:28:51 host kernel: [    1.889387] sd 0:0:0:0: [sda] Mode Sense: bf 00 00 08
+Sep  4 06:28:51 host kernel: [    1.890369] sd 0:0:0:0: [sda] Write cache: enabled, read cache: disabled, doesn't support DPO or FUA
+Sep  4 06:28:51 host kernel: [    1.898755]  sda: sda1 sda2 sda3 sda4
+Sep  4 06:28:51 host kernel: [    1.899097] sd 0:0:0:0: [sda] Attached SCSI disk
+Sep  4 06:28:51 host kernel: [    2.067347] clocksource: timekeeping watchdog on CPU3: Marking clocksource 'tsc' as unstable because the skew is too large:
+Sep  4 06:28:51 host kernel: [    2.067359] clocksource:                       'hpet' wd_nsec: 496865802 wd_now: 25baf75 wd_last: 1ef218f mask: ffffffff
+Sep  4 06:28:51 host kernel: [    2.067366] clocksource:                       'tsc' cs_nsec: 496000511 cs_now: 76f347c18 cs_last: 731210a84 mask: ffffffffffffffff
+Sep  4 06:28:51 host kernel: [    2.067371] clocksource:                       Clocksource 'tsc' skewed -865291 ns (0 ms) over watchdog 'hpet' interval of 496865802 ns (496 ms)
+Sep  4 06:28:51 host kernel: [    2.067378] clocksource:                       'tsc' is current clocksource.
+Sep  4 06:28:51 host kernel: [    2.067393] tsc: Marking TSC unstable due to clocksource watchdog
+Sep  4 06:28:51 host kernel: [    2.067424] TSC found unstable after boot, most likely due to broken BIOS. Use 'tsc=unstable'.
+Sep  4 06:28:51 host kernel: [    2.067428] sched_clock: Marking unstable (2067118026, 304909)<-(2823060713, -755637390)
+Sep  4 06:28:51 host kernel: [    2.067706] clocksource: Checking clocksource tsc synchronization from CPU 3 to CPUs 0,2,5-7,9-10.
+Sep  4 06:28:51 host kernel: [    2.067910] clocksource: Switched to clocksource hpet
+Sep  4 06:28:51 host kernel: [    2.664547] EXT4-fs (sda1): mounted filesystem fa8eb582-80aa-4884-807b-b8895f8bd38b r/w with ordered data mode. Quota mode: none.
+Sep  4 06:28:51 host kernel: [    2.664703] mount (249) used greatest stack depth: 13248 bytes left
+Sep  4 06:28:51 host kernel: [    2.716866] stty (264) used greatest stack depth: 13184 bytes left
+Sep  4 06:28:51 host kernel: [  332.827506] kworker/dying (142) used greatest stack depth: 12720 bytes left
+Sep  4 06:28:51 host kernel: <30>[  339.538165] udevd[404]: Starting systemd-udevd version 255
+Sep  4 06:28:51 host kernel: <30>[  339.543638] udevd[405]: Using default interface naming scheme 'v255'.
+Sep  4 06:28:51 host kernel: [  340.646089] EXT4-fs (sda1): re-mounted fa8eb582-80aa-4884-807b-b8895f8bd38b ro. Quota mode: none.
+Sep  4 06:28:51 host kernel: [  340.725838] EXT4-fs (sda1): re-mounted fa8eb582-80aa-4884-807b-b8895f8bd38b r/w. Quota mode: none.
+Sep  4 06:28:51 host kernel: <28>[  340.791334] udevd[405]: Failed to touch /run/udev/queue, ignoring: No such file or directory
+Sep  4 06:36:36 host kernel: Kernel logging (proc) stopped.
+Sep  4 06:36:36 host kernel: Kernel log daemon terminating.
+Sep  4 19:36:36 host kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Sep  4 19:36:36 host kernel: Cannot find map file.
+Sep  4 19:36:36 host kernel: Loaded 168974 symbols from 1 module.
+Sep  4 19:36:36 host kernel: [    0.000000] Linux version 6.7.4 (root@livecd) (gcc (GCC) 13.2.0, GNU ld (GNU Binutils) 2.42) #1 SMP PREEMPT_DYNAMIC Tue Sep  3 17:04:02 UTC 2024
+Sep  4 19:36:36 host kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2 root=UUID=fa8eb582-80aa-4884-807b-b8895f8bd38b rw loglevel=3 quiet
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-provided physical RAM map:
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000bffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000099fffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009a00000-0x0000000009dfffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009e00000-0x0000000009efffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009f00000-0x0000000009f0efff] ACPI NVS
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000009f0f000-0x00000000b99e8fff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000b99e9000-0x00000000babe8fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000babe9000-0x00000000c8dfefff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000c8dff000-0x00000000cbdfefff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000cbdff000-0x00000000cdf7efff] ACPI NVS
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000cdf7f000-0x00000000cdffefff] ACPI data
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000cdfff000-0x00000000cdffffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000ce000000-0x00000000cfffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fdd00000-0x00000000fddfffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fdf00000-0x00000000fdffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec01fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec20000-0x00000000fec20fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed80000-0x00000000fed81fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000020e2fffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] BIOS-e820: [mem 0x000000020e300000-0x000000022fffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] NX (Execute Disable) protection: active
+Sep  4 19:36:36 host kernel: [    0.000000] APIC: Static calls initialized
+Sep  4 19:36:36 host kernel: [    0.000000] e820: update [mem 0xb5b22018-0xb5b2f857] usable ==> usable
+Sep  4 19:36:36 host kernel: [    0.000000] e820: update [mem 0xb5b22018-0xb5b2f857] usable ==> usable
+Sep  4 19:36:36 host kernel: [    0.000000] extended physical RAM map:
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000000000000-0x000000000009efff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x000000000009f000-0x00000000000bffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000000100000-0x00000000099fffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009a00000-0x0000000009dfffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009e00000-0x0000000009efffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009f00000-0x0000000009f0efff] ACPI NVS
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000009f0f000-0x00000000b5b22017] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000b5b22018-0x00000000b5b2f857] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000b5b2f858-0x00000000b99e8fff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000b99e9000-0x00000000babe8fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000babe9000-0x00000000c8dfefff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000c8dff000-0x00000000cbdfefff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000cbdff000-0x00000000cdf7efff] ACPI NVS
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000cdf7f000-0x00000000cdffefff] ACPI data
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000cdfff000-0x00000000cdffffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000ce000000-0x00000000cfffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fdd00000-0x00000000fddfffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fdf00000-0x00000000fdffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fec00000-0x00000000fec01fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fec20000-0x00000000fec20fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fed80000-0x00000000fed81fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x0000000100000000-0x000000020e2fffff] usable
+Sep  4 19:36:36 host kernel: [    0.000000] reserve setup_data: [mem 0x000000020e300000-0x000000022fffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] efi: EFI v2.7 by HUAWEI
+Sep  4 19:36:36 host kernel: [    0.000000] efi: ACPI=0xcdffe000 ACPI 2.0=0xcdffe014 TPMFinalLog=0xcdf40000 SMBIOS=0xca58c000 SMBIOS 3.0=0xca58a000 MEMATTR=0xb5af4018 ESRT=0xb5a0aa98 INITRD=0xb5b36b18 RNG=0xcdfb2018 TPMEventLog=0xb5b30018 
+Sep  4 19:36:36 host kernel: [    0.000000] random: crng init done
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Remove mem68: MMIO range=[0xf8000000-0xfbffffff] (64MB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] e820: remove [mem 0xf8000000-0xfbffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Remove mem69: MMIO range=[0xfdd00000-0xfddfffff] (1MB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] e820: remove [mem 0xfdd00000-0xfddfffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Remove mem70: MMIO range=[0xfdf00000-0xfdffffff] (1MB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] e820: remove [mem 0xfdf00000-0xfdffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Not removing mem71: MMIO range=[0xfec00000-0xfec01fff] (8KB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Not removing mem72: MMIO range=[0xfec10000-0xfec10fff] (4KB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Not removing mem73: MMIO range=[0xfec20000-0xfec20fff] (4KB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Not removing mem74: MMIO range=[0xfed80000-0xfed81fff] (8KB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Not removing mem75: MMIO range=[0xfee00000-0xfee00fff] (4KB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] efi: Remove mem76: MMIO range=[0xff000000-0xffffffff] (16MB) from e820 map
+Sep  4 19:36:36 host kernel: [    0.000000] e820: remove [mem 0xff000000-0xffffffff] reserved
+Sep  4 19:36:36 host kernel: [    0.000000] SMBIOS 3.3.0 present.
+Sep  4 19:36:36 host kernel: [    0.000000] DMI: HUAWEI BOM-WXX9/BOM-WXX9-PCB-B2, BIOS 2.11 12/21/2022
+Sep  4 19:36:36 host kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Sep  4 19:36:36 host kernel: [    0.000000] tsc: Detected 2096.099 MHz processor
+Sep  4 19:36:36 host kernel: [    0.000349] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Sep  4 19:36:36 host kernel: [    0.000350] e820: remove [mem 0x000a0000-0x000fffff] usable
+Sep  4 19:36:36 host kernel: [    0.000356] last_pfn = 0x20e300 max_arch_pfn = 0x400000000
+Sep  4 19:36:36 host kernel: [    0.000361] MTRR map: 7 entries (4 fixed + 3 variable; max 21), built from 9 variable MTRRs
+Sep  4 19:36:36 host kernel: [    0.000362] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Sep  4 19:36:36 host kernel: [    0.000562] last_pfn = 0xce000 max_arch_pfn = 0x400000000
+Sep  4 19:36:36 host kernel: [    0.004075] esrt: Reserving ESRT space from 0x00000000b5a0aa98 to 0x00000000b5a0aad0.
+Sep  4 19:36:36 host kernel: [    0.004080] e820: update [mem 0xb5a0a000-0xb5a0afff] usable ==> reserved
+Sep  4 19:36:36 host kernel: [    0.004093] Using GB pages for direct mapping
+Sep  4 19:36:36 host kernel: [    0.004625] Secure boot disabled
+Sep  4 19:36:36 host kernel: [    0.004625] RAMDISK: [mem 0xae468000-0xb054efff]
+Sep  4 19:36:36 host kernel: [    0.004788] ACPI: Early table checksum verification disabled
+Sep  4 19:36:36 host kernel: [    0.004791] ACPI: RSDP 0x00000000CDFFE014 000024 (v02 HUAWEI)
+Sep  4 19:36:36 host kernel: [    0.004793] ACPI: XSDT 0x00000000CDFC4188 000134 (v01 HUAWEI EDK2     00000002      01000013)
+Sep  4 19:36:36 host kernel: [    0.004797] ACPI: FACP 0x00000000CDFE9000 00010C (v05 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004801] ACPI: DSDT 0x00000000CDFD9000 00A61C (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004803] ACPI: FACS 0x00000000CCED5000 000040
+Sep  4 19:36:36 host kernel: [    0.004804] ACPI: UEFI 0x00000000CDF7E000 000236 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004806] ACPI: SSDT 0x00000000CDFF5000 007229 (v02 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004808] ACPI: IVRS 0x00000000CDFF4000 0001A4 (v02 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004809] ACPI: SSDT 0x00000000CDFF0000 003A21 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004811] ACPI: SSDT 0x00000000CDFEF000 000472 (v02 HUAWEI EDK2     00001000 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004812] ACPI: TPM2 0x00000000CDFEE000 00004C (v04 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004814] ACPI: MSDM 0x00000000CDFED000 000055 (v03 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004816] ACPI: SSDT 0x00000000CDFEC000 0009F1 (v01 HUAWEI EDK2     00001000 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004817] ACPI: ASF! 0x00000000CDFEB000 0000A5 (v32 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004819] ACPI: BOOT 0x00000000CDFEA000 000028 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004821] ACPI: HPET 0x00000000CDFE8000 000038 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004822] ACPI: APIC 0x00000000CDFE7000 000138 (v03 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004824] ACPI: MCFG 0x00000000CDFE6000 00003C (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004825] ACPI: SSDT 0x00000000CDFD8000 000080 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004827] ACPI: VFCT 0x00000000CDFCA000 00D884 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004829] ACPI: SSDT 0x00000000CDFC9000 0000F8 (v01 HUAWEI EDK2     00001000 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004830] ACPI: SSDT 0x00000000CDFC5000 003E88 (v02 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004832] ACPI: CRAT 0x00000000CDFFD000 000BA8 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004833] ACPI: CDIT 0x00000000CDFC3000 000029 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004835] ACPI: SSDT 0x00000000CDFC2000 000139 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004836] ACPI: SSDT 0x00000000CDFC1000 000689 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004838] ACPI: SSDT 0x00000000CDFC0000 000D53 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004840] ACPI: SSDT 0x00000000CDFBE000 0010C5 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004841] ACPI: SSDT 0x00000000CDFBA000 0034AA (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004843] ACPI: FPDT 0x00000000CDFB9000 000044 (v01 HUAWEI EDK2     00000002 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004844] ACPI: WSMT 0x00000000CDFB7000 000028 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004846] ACPI: SSDT 0x00000000CDFE5000 000042 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004848] ACPI: SSDT 0x00000000CDFE4000 00020A (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004849] ACPI: SSDT 0x00000000CDFB6000 0005A0 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004851] ACPI: SSDT 0x00000000CDFB5000 000307 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004852] ACPI: SSDT 0x00000000CDFB4000 00007D (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004854] ACPI: SSDT 0x00000000CDFB3000 000517 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004856] ACPI: BGRT 0x00000000CDFB8000 000038 (v01 HUAWEI EDK2     00000001 ACPI 00040000)
+Sep  4 19:36:36 host kernel: [    0.004857] ACPI: Reserving FACP table memory at [mem 0xcdfe9000-0xcdfe910b]
+Sep  4 19:36:36 host kernel: [    0.004858] ACPI: Reserving DSDT table memory at [mem 0xcdfd9000-0xcdfe361b]
+Sep  4 19:36:36 host kernel: [    0.004859] ACPI: Reserving FACS table memory at [mem 0xcced5000-0xcced503f]
+Sep  4 19:36:36 host kernel: [    0.004859] ACPI: Reserving UEFI table memory at [mem 0xcdf7e000-0xcdf7e235]
+Sep  4 19:36:36 host kernel: [    0.004860] ACPI: Reserving SSDT table memory at [mem 0xcdff5000-0xcdffc228]
+Sep  4 19:36:36 host kernel: [    0.004860] ACPI: Reserving IVRS table memory at [mem 0xcdff4000-0xcdff41a3]
+Sep  4 19:36:36 host kernel: [    0.004861] ACPI: Reserving SSDT table memory at [mem 0xcdff0000-0xcdff3a20]
+Sep  4 19:36:36 host kernel: [    0.004861] ACPI: Reserving SSDT table memory at [mem 0xcdfef000-0xcdfef471]
+Sep  4 19:36:36 host kernel: [    0.004862] ACPI: Reserving TPM2 table memory at [mem 0xcdfee000-0xcdfee04b]
+Sep  4 19:36:36 host kernel: [    0.004862] ACPI: Reserving MSDM table memory at [mem 0xcdfed000-0xcdfed054]
+Sep  4 19:36:36 host kernel: [    0.004863] ACPI: Reserving SSDT table memory at [mem 0xcdfec000-0xcdfec9f0]
+Sep  4 19:36:36 host kernel: [    0.004863] ACPI: Reserving ASF! table memory at [mem 0xcdfeb000-0xcdfeb0a4]
+Sep  4 19:36:36 host kernel: [    0.004864] ACPI: Reserving BOOT table memory at [mem 0xcdfea000-0xcdfea027]
+Sep  4 19:36:36 host kernel: [    0.004864] ACPI: Reserving HPET table memory at [mem 0xcdfe8000-0xcdfe8037]
+Sep  4 19:36:36 host kernel: [    0.004865] ACPI: Reserving APIC table memory at [mem 0xcdfe7000-0xcdfe7137]
+Sep  4 19:36:36 host kernel: [    0.004866] ACPI: Reserving MCFG table memory at [mem 0xcdfe6000-0xcdfe603b]
+Sep  4 19:36:36 host kernel: [    0.004866] ACPI: Reserving SSDT table memory at [mem 0xcdfd8000-0xcdfd807f]
+Sep  4 19:36:36 host kernel: [    0.004867] ACPI: Reserving VFCT table memory at [mem 0xcdfca000-0xcdfd7883]
+Sep  4 19:36:36 host kernel: [    0.004867] ACPI: Reserving SSDT table memory at [mem 0xcdfc9000-0xcdfc90f7]
+Sep  4 19:36:36 host kernel: [    0.004868] ACPI: Reserving SSDT table memory at [mem 0xcdfc5000-0xcdfc8e87]
+Sep  4 19:36:36 host kernel: [    0.004868] ACPI: Reserving CRAT table memory at [mem 0xcdffd000-0xcdffdba7]
+Sep  4 19:36:36 host kernel: [    0.004869] ACPI: Reserving CDIT table memory at [mem 0xcdfc3000-0xcdfc3028]
+Sep  4 19:36:36 host kernel: [    0.004869] ACPI: Reserving SSDT table memory at [mem 0xcdfc2000-0xcdfc2138]
+Sep  4 19:36:36 host kernel: [    0.004870] ACPI: Reserving SSDT table memory at [mem 0xcdfc1000-0xcdfc1688]
+Sep  4 19:36:36 host kernel: [    0.004871] ACPI: Reserving SSDT table memory at [mem 0xcdfc0000-0xcdfc0d52]
+Sep  4 19:36:36 host kernel: [    0.004871] ACPI: Reserving SSDT table memory at [mem 0xcdfbe000-0xcdfbf0c4]
+Sep  4 19:36:36 host kernel: [    0.004872] ACPI: Reserving SSDT table memory at [mem 0xcdfba000-0xcdfbd4a9]
+Sep  4 19:36:36 host kernel: [    0.004872] ACPI: Reserving FPDT table memory at [mem 0xcdfb9000-0xcdfb9043]
+Sep  4 19:36:36 host kernel: [    0.004873] ACPI: Reserving WSMT table memory at [mem 0xcdfb7000-0xcdfb7027]
+Sep  4 19:36:36 host kernel: [    0.004873] ACPI: Reserving SSDT table memory at [mem 0xcdfe5000-0xcdfe5041]
+Sep  4 19:36:36 host kernel: [    0.004874] ACPI: Reserving SSDT table memory at [mem 0xcdfe4000-0xcdfe4209]
+Sep  4 19:36:36 host kernel: [    0.004874] ACPI: Reserving SSDT table memory at [mem 0xcdfb6000-0xcdfb659f]
+Sep  4 19:36:36 host kernel: [    0.004875] ACPI: Reserving SSDT table memory at [mem 0xcdfb5000-0xcdfb5306]
+Sep  4 19:36:36 host kernel: [    0.004875] ACPI: Reserving SSDT table memory at [mem 0xcdfb4000-0xcdfb407c]
+Sep  4 19:36:36 host kernel: [    0.004876] ACPI: Reserving SSDT table memory at [mem 0xcdfb3000-0xcdfb3516]
+Sep  4 19:36:36 host kernel: [    0.004877] ACPI: Reserving BGRT table memory at [mem 0xcdfb8000-0xcdfb8037]
+Sep  4 19:36:36 host kernel: [    0.004931] No NUMA configuration found
+Sep  4 19:36:36 host kernel: [    0.004932] Faking a node at [mem 0x0000000000000000-0x000000020e2fffff]
+Sep  4 19:36:36 host kernel: [    0.004935] NODE_DATA(0) allocated [mem 0x20e2fc000-0x20e2fffff]
+Sep  4 19:36:36 host kernel: [    0.004948] Zone ranges:
+Sep  4 19:36:36 host kernel: [    0.004949]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Sep  4 19:36:36 host kernel: [    0.004950]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Sep  4 19:36:36 host kernel: [    0.004951]   Normal   [mem 0x0000000100000000-0x000000020e2fffff]
+Sep  4 19:36:36 host kernel: [    0.004952] Movable zone start for each node
+Sep  4 19:36:36 host kernel: [    0.004952] Early memory node ranges
+Sep  4 19:36:36 host kernel: [    0.004953]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Sep  4 19:36:36 host kernel: [    0.004953]   node   0: [mem 0x0000000000100000-0x00000000099fffff]
+Sep  4 19:36:36 host kernel: [    0.004954]   node   0: [mem 0x0000000009e00000-0x0000000009efffff]
+Sep  4 19:36:36 host kernel: [    0.004955]   node   0: [mem 0x0000000009f0f000-0x00000000b99e8fff]
+Sep  4 19:36:36 host kernel: [    0.004955]   node   0: [mem 0x00000000babe9000-0x00000000c8dfefff]
+Sep  4 19:36:36 host kernel: [    0.004956]   node   0: [mem 0x00000000cdfff000-0x00000000cdffffff]
+Sep  4 19:36:36 host kernel: [    0.004957]   node   0: [mem 0x0000000100000000-0x000000020e2fffff]
+Sep  4 19:36:36 host kernel: [    0.004958] Initmem setup node 0 [mem 0x0000000000001000-0x000000020e2fffff]
+Sep  4 19:36:36 host kernel: [    0.004960] On node 0, zone DMA: 1 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.004976] On node 0, zone DMA: 97 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.005117] On node 0, zone DMA32: 1024 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.010782] On node 0, zone DMA32: 15 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.011301] On node 0, zone DMA32: 4608 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.011502] On node 0, zone DMA32: 20992 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.020488] On node 0, zone Normal: 8192 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.020562] On node 0, zone Normal: 7424 pages in unavailable ranges
+Sep  4 19:36:36 host kernel: [    0.020669] ACPI: PM-Timer IO Port: 0x408
+Sep  4 19:36:36 host kernel: [    0.020675] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020676] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020677] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020677] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020678] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020678] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020679] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020679] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020680] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020680] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020681] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020681] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020682] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020682] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020682] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020683] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+Sep  4 19:36:36 host kernel: [    0.020696] IOAPIC[0]: apic_id 33, version 33, address 0xfec00000, GSI 0-23
+Sep  4 19:36:36 host kernel: [    0.020701] IOAPIC[1]: apic_id 34, version 33, address 0xfec01000, GSI 24-55
+Sep  4 19:36:36 host kernel: [    0.020702] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep  4 19:36:36 host kernel: [    0.020704] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep  4 19:36:36 host kernel: [    0.020707] ACPI: Using ACPI (MADT) for SMP configuration information
+Sep  4 19:36:36 host kernel: [    0.020708] ACPI: HPET id: 0x10228210 base: 0xfed00000
+Sep  4 19:36:36 host kernel: [    0.020715] e820: update [mem 0xb5a54000-0xb5a7cfff] usable ==> reserved
+Sep  4 19:36:36 host kernel: [    0.020725] smpboot: Allowing 16 CPUs, 4 hotplug CPUs
+Sep  4 19:36:36 host kernel: [    0.020745] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Sep  4 19:36:36 host kernel: [    0.020746] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000bffff]
+Sep  4 19:36:36 host kernel: [    0.020747] PM: hibernation: Registered nosave memory: [mem 0x000c0000-0x000fffff]
+Sep  4 19:36:36 host kernel: [    0.020748] PM: hibernation: Registered nosave memory: [mem 0x09a00000-0x09dfffff]
+Sep  4 19:36:36 host kernel: [    0.020749] PM: hibernation: Registered nosave memory: [mem 0x09f00000-0x09f0efff]
+Sep  4 19:36:36 host kernel: [    0.020750] PM: hibernation: Registered nosave memory: [mem 0xb5a0a000-0xb5a0afff]
+Sep  4 19:36:36 host kernel: [    0.020752] PM: hibernation: Registered nosave memory: [mem 0xb5a54000-0xb5a7cfff]
+Sep  4 19:36:36 host kernel: [    0.020753] PM: hibernation: Registered nosave memory: [mem 0xb5b22000-0xb5b22fff]
+Sep  4 19:36:36 host kernel: [    0.020754] PM: hibernation: Registered nosave memory: [mem 0xb5b2f000-0xb5b2ffff]
+Sep  4 19:36:36 host kernel: [    0.020755] PM: hibernation: Registered nosave memory: [mem 0xb99e9000-0xbabe8fff]
+Sep  4 19:36:36 host kernel: [    0.020756] PM: hibernation: Registered nosave memory: [mem 0xc8dff000-0xcbdfefff]
+Sep  4 19:36:36 host kernel: [    0.020757] PM: hibernation: Registered nosave memory: [mem 0xcbdff000-0xcdf7efff]
+Sep  4 19:36:36 host kernel: [    0.020757] PM: hibernation: Registered nosave memory: [mem 0xcdf7f000-0xcdffefff]
+Sep  4 19:36:36 host kernel: [    0.020758] PM: hibernation: Registered nosave memory: [mem 0xce000000-0xcfffffff]
+Sep  4 19:36:36 host kernel: [    0.020759] PM: hibernation: Registered nosave memory: [mem 0xd0000000-0xfebfffff]
+Sep  4 19:36:36 host kernel: [    0.020759] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec01fff]
+Sep  4 19:36:36 host kernel: [    0.020760] PM: hibernation: Registered nosave memory: [mem 0xfec02000-0xfec0ffff]
+Sep  4 19:36:36 host kernel: [    0.020760] PM: hibernation: Registered nosave memory: [mem 0xfec10000-0xfec10fff]
+Sep  4 19:36:36 host kernel: [    0.020760] PM: hibernation: Registered nosave memory: [mem 0xfec11000-0xfec1ffff]
+Sep  4 19:36:36 host kernel: [    0.020761] PM: hibernation: Registered nosave memory: [mem 0xfec20000-0xfec20fff]
+Sep  4 19:36:36 host kernel: [    0.020761] PM: hibernation: Registered nosave memory: [mem 0xfec21000-0xfed7ffff]
+Sep  4 19:36:36 host kernel: [    0.020762] PM: hibernation: Registered nosave memory: [mem 0xfed80000-0xfed81fff]
+Sep  4 19:36:36 host kernel: [    0.020762] PM: hibernation: Registered nosave memory: [mem 0xfed82000-0xfedfffff]
+Sep  4 19:36:36 host kernel: [    0.020763] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Sep  4 19:36:36 host kernel: [    0.020763] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xffffffff]
+Sep  4 19:36:36 host kernel: [    0.020764] [mem 0xd0000000-0xfebfffff] available for PCI devices
+Sep  4 19:36:36 host kernel: [    0.020766] Booting paravirtualized kernel on bare hardware
+Sep  4 19:36:36 host kernel: [    0.020768] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Sep  4 19:36:36 host kernel: [    0.025389] setup_percpu: NR_CPUS:64 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Sep  4 19:36:36 host kernel: [    0.025934] percpu: Embedded 54 pages/cpu s183272 r8192 d29720 u262144
+Sep  4 19:36:36 host kernel: [    0.025941] pcpu-alloc: s183272 r8192 d29720 u262144 alloc=1*2097152
+Sep  4 19:36:36 host kernel: [    0.025943] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Sep  4 19:36:36 host kernel: [    0.025963] Kernel command line: BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2 root=UUID=fa8eb582-80aa-4884-807b-b8895f8bd38b rw loglevel=3 quiet
+Sep  4 19:36:36 host kernel: [    0.025998] Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2", will be passed to user space.
+Sep  4 19:36:36 host kernel: [    0.027037] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.027549] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.027638] Fallback order for Node 0: 0 
+Sep  4 19:36:36 host kernel: [    0.027644] Built 1 zonelists, mobility grouping on.  Total pages: 1893509
+Sep  4 19:36:36 host kernel: [    0.027645] Policy zone: Normal
+Sep  4 19:36:36 host kernel: [    0.027647] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+Sep  4 19:36:36 host kernel: [    0.027688] software IO TLB: area num 16.
+Sep  4 19:36:36 host kernel: [    0.056486] Memory: 7327612K/7694908K available (18432K kernel code, 2762K rwdata, 6652K rodata, 2692K init, 1360K bss, 367036K reserved, 0K cma-reserved)
+Sep  4 19:36:36 host kernel: [    0.056539] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1
+Sep  4 19:36:36 host kernel: [    0.057601] Dynamic Preempt: voluntary
+Sep  4 19:36:36 host kernel: [    0.057644] rcu: Preemptible hierarchical RCU implementation.
+Sep  4 19:36:36 host kernel: [    0.057645] rcu: ^IRCU event tracing is enabled.
+Sep  4 19:36:36 host kernel: [    0.057645] rcu: ^IRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=16.
+Sep  4 19:36:36 host kernel: [    0.057646] ^ITrampoline variant of Tasks RCU enabled.
+Sep  4 19:36:36 host kernel: [    0.057647] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Sep  4 19:36:36 host kernel: [    0.057648] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16
+Sep  4 19:36:36 host kernel: [    0.058753] NR_IRQS: 4352, nr_irqs: 1096, preallocated irqs: 16
+Sep  4 19:36:36 host kernel: [    0.058946] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Sep  4 19:36:36 host kernel: [    0.059019] Console: colour dummy device 80x25
+Sep  4 19:36:36 host kernel: [    0.059021] printk: legacy console [tty0] enabled
+Sep  4 19:36:36 host kernel: [    0.059054] ACPI: Core revision 20230628
+Sep  4 19:36:36 host kernel: [    0.059249] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns
+Sep  4 19:36:36 host kernel: [    0.059267] APIC: Switch to symmetric I/O mode setup
+Sep  4 19:36:36 host kernel: [    0.060157] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR0, rdevid:160
+Sep  4 19:36:36 host kernel: [    0.060159] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR1, rdevid:160
+Sep  4 19:36:36 host kernel: [    0.060161] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR2, rdevid:160
+Sep  4 19:36:36 host kernel: [    0.060162] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR3, rdevid:160
+Sep  4 19:36:36 host kernel: [    0.060162] AMD-Vi: Using global IVHD EFR:0x206d73ef22254ade, EFR2:0x0
+Sep  4 19:36:36 host kernel: [    0.060474] APIC: Switched APIC routing to: physical flat
+Sep  4 19:36:36 host kernel: [    0.061208] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Sep  4 19:36:36 host kernel: [    0.065272] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1e36cb4bb2a, max_idle_ns: 440795212160 ns
+Sep  4 19:36:36 host kernel: [    0.065278] Calibrating delay loop (skipped), value calculated using timer frequency.. 4192.19 BogoMIPS (lpj=2096099)
+Sep  4 19:36:36 host kernel: [    0.065290] Zenbleed: please update your microcode for the most optimal fix
+Sep  4 19:36:36 host kernel: [    0.065292] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Sep  4 19:36:36 host kernel: [    0.065321] LVT offset 1 assigned for vector 0xf9
+Sep  4 19:36:36 host kernel: [    0.065383] LVT offset 2 assigned for vector 0xf4
+Sep  4 19:36:36 host kernel: [    0.065399] process: using mwait in idle threads
+Sep  4 19:36:36 host kernel: [    0.065401] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+Sep  4 19:36:36 host kernel: [    0.065402] Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+Sep  4 19:36:36 host kernel: [    0.065405] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Sep  4 19:36:36 host kernel: [    0.065406] Spectre V2 : Mitigation: Retpolines
+Sep  4 19:36:36 host kernel: [    0.065407] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Sep  4 19:36:36 host kernel: [    0.065407] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Sep  4 19:36:36 host kernel: [    0.065408] Spectre V2 : Enabling Speculation Barrier for firmware calls
+Sep  4 19:36:36 host kernel: [    0.065409] RETBleed: Mitigation: untrained return thunk
+Sep  4 19:36:36 host kernel: [    0.065410] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Sep  4 19:36:36 host kernel: [    0.065410] Spectre V2 : Selecting STIBP always-on mode to complement retbleed mitigation
+Sep  4 19:36:36 host kernel: [    0.065411] Spectre V2 : User space: Mitigation: STIBP always-on protection
+Sep  4 19:36:36 host kernel: [    0.065412] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+Sep  4 19:36:36 host kernel: [    0.065413] Speculative Return Stack Overflow: Mitigation: Safe RET
+Sep  4 19:36:36 host kernel: [    0.065416] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Sep  4 19:36:36 host kernel: [    0.065417] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Sep  4 19:36:36 host kernel: [    0.065418] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Sep  4 19:36:36 host kernel: [    0.065419] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Sep  4 19:36:36 host kernel: [    0.065420] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+Sep  4 19:36:36 host kernel: [    0.086628] Freeing SMP alternatives memory: 48K
+Sep  4 19:36:36 host kernel: [    0.086635] pid_max: default: 32768 minimum: 301
+Sep  4 19:36:36 host kernel: [    0.091303] LSM: initializing lsm=capability,selinux,integrity
+Sep  4 19:36:36 host kernel: [    0.091312] SELinux:  Initializing.
+Sep  4 19:36:36 host kernel: [    0.091348] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.091356] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.194735] smpboot: CPU0: AMD Ryzen 5 5500U with Radeon Graphics (family: 0x17, model: 0x68, stepping: 0x1)
+Sep  4 19:36:36 host kernel: [    0.194918] RCU Tasks: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1.
+Sep  4 19:36:36 host kernel: [    0.194932] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+Sep  4 19:36:36 host kernel: [    0.194962] ... version:                0
+Sep  4 19:36:36 host kernel: [    0.194964] ... bit width:              48
+Sep  4 19:36:36 host kernel: [    0.194965] ... generic registers:      6
+Sep  4 19:36:36 host kernel: [    0.194965] ... value mask:             0000ffffffffffff
+Sep  4 19:36:36 host kernel: [    0.194967] ... max period:             00007fffffffffff
+Sep  4 19:36:36 host kernel: [    0.194968] ... fixed-purpose events:   0
+Sep  4 19:36:36 host kernel: [    0.194968] ... event mask:             000000000000003f
+Sep  4 19:36:36 host kernel: [    0.195062] signal: max sigframe size: 1776
+Sep  4 19:36:36 host kernel: [    0.195274] rcu: Hierarchical SRCU implementation.
+Sep  4 19:36:36 host kernel: [    0.195274] rcu: ^IMax phase no-delay instances is 400.
+Sep  4 19:36:36 host kernel: [    0.200105] smp: Bringing up secondary CPUs ...
+Sep  4 19:36:36 host kernel: [    0.200196] smpboot: x86: Booting SMP configuration:
+Sep  4 19:36:36 host kernel: [    0.200197] .... node  #0, CPUs:        #2  #4  #6  #8 #10  #1  #3  #5  #7  #9 #11
+Sep  4 19:36:36 host kernel: [    0.208337] Spectre V2 : Update user space SMT mitigation: STIBP always-on
+Sep  4 19:36:36 host kernel: [    0.213297] smp: Brought up 1 node, 12 CPUs
+Sep  4 19:36:36 host kernel: [    0.213297] smpboot: Max logical packages: 2
+Sep  4 19:36:36 host kernel: [    0.213298] smpboot: Total of 12 processors activated (50306.37 BogoMIPS)
+Sep  4 19:36:36 host kernel: [    0.215715] devtmpfs: initialized
+Sep  4 19:36:36 host kernel: [    0.215715] ACPI: PM: Registering ACPI NVS region [mem 0x09f00000-0x09f0efff] (61440 bytes)
+Sep  4 19:36:36 host kernel: [    0.215715] ACPI: PM: Registering ACPI NVS region [mem 0xcbdff000-0xcdf7efff] (35127296 bytes)
+Sep  4 19:36:36 host kernel: [    0.216711] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Sep  4 19:36:36 host kernel: [    0.216716] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.216826] PM: RTC time: 19:35:55, date: 2024-09-04
+Sep  4 19:36:36 host kernel: [    0.216926] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Sep  4 19:36:36 host kernel: [    0.217069] audit: initializing netlink subsys (disabled)
+Sep  4 19:36:36 host kernel: [    0.217075] audit: type=2000 audit(1725478553.157:1): state=initialized audit_enabled=0 res=1
+Sep  4 19:36:36 host kernel: [    0.217075] thermal_sys: Registered thermal governor 'step_wise'
+Sep  4 19:36:36 host kernel: [    0.217075] thermal_sys: Registered thermal governor 'user_space'
+Sep  4 19:36:36 host kernel: [    0.217075] cpuidle: using governor menu
+Sep  4 19:36:36 host kernel: [    0.217302] Simple Boot Flag at 0x44 set to 0x1
+Sep  4 19:36:36 host kernel: [    0.217402] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+Sep  4 19:36:36 host kernel: [    0.217409] PCI: not using MMCONFIG
+Sep  4 19:36:36 host kernel: [    0.217410] PCI: Using configuration type 1 for base access
+Sep  4 19:36:36 host kernel: [    0.217412] PCI: Using configuration type 1 for extended access
+Sep  4 19:36:36 host kernel: [    0.217924] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Sep  4 19:36:36 host kernel: [    0.217940] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Sep  4 19:36:36 host kernel: [    0.217940] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Sep  4 19:36:36 host kernel: [    0.218305] ACPI: Added _OSI(Module Device)
+Sep  4 19:36:36 host kernel: [    0.218306] ACPI: Added _OSI(Processor Device)
+Sep  4 19:36:36 host kernel: [    0.218308] ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep  4 19:36:36 host kernel: [    0.218309] ACPI: Added _OSI(Processor Aggregator Device)
+Sep  4 19:36:36 host kernel: [    0.232756] ACPI: 19 ACPI AML tables successfully acquired and loaded
+Sep  4 19:36:36 host kernel: [    0.234833] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Sep  4 19:36:36 host kernel: [    0.236419] ACPI: _OSC evaluation for CPUs failed, trying _PDC
+Sep  4 19:36:36 host kernel: [    0.236841] ACPI: EC: EC started
+Sep  4 19:36:36 host kernel: [    0.236842] ACPI: EC: interrupt blocked
+Sep  4 19:36:36 host kernel: [    0.237308] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Sep  4 19:36:36 host kernel: [    0.237310] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC used to handle transactions
+Sep  4 19:36:36 host kernel: [    0.237312] ACPI: Interpreter enabled
+Sep  4 19:36:36 host kernel: [    0.237325] ACPI: PM: (supports S0 S4 S5)
+Sep  4 19:36:36 host kernel: [    0.237327] ACPI: Using IOAPIC for interrupt routing
+Sep  4 19:36:36 host kernel: [    0.237483] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+Sep  4 19:36:36 host kernel: [    0.239315] [Firmware Info]: PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] not reserved in ACPI motherboard resources
+Sep  4 19:36:36 host kernel: [    0.239318] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved as EfiMemoryMappedIO
+Sep  4 19:36:36 host kernel: [    0.239319] MMCONFIG [mem 0xf8000000-0xfbffffff] reserved to work around lack of ACPI motherboard _CRS
+Sep  4 19:36:36 host kernel: [    0.239326] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep  4 19:36:36 host kernel: [    0.239327] PCI: Using E820 reservations for host bridge windows
+Sep  4 19:36:36 host kernel: [    0.241267] ACPI: \_SB_.PCI0.GPP6.P0NV: New power resource
+Sep  4 19:36:36 host kernel: [    0.241856] ACPI: \_SB_.PCI0.GP17.XHC0.P0U0: New power resource
+Sep  4 19:36:36 host kernel: [    0.241945] ACPI: \_SB_.PCI0.GP17.XHC0.P3U0: New power resource
+Sep  4 19:36:36 host kernel: [    0.242839] ACPI: \_SB_.PCI0.GP17.XHC1.P0U1: New power resource
+Sep  4 19:36:36 host kernel: [    0.242928] ACPI: \_SB_.PCI0.GP17.XHC1.P3U1: New power resource
+Sep  4 19:36:36 host kernel: [    0.249177] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep  4 19:36:36 host kernel: [    0.249182] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Sep  4 19:36:36 host kernel: [    0.249265] acpi PNP0A08:00: _OSC: platform does not support [LTR]
+Sep  4 19:36:36 host kernel: [    0.249417] acpi PNP0A08:00: _OSC: OS now controls [PME PCIeCapability]
+Sep  4 19:36:36 host kernel: [    0.249426] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+Sep  4 19:36:36 host kernel: [    0.249719] PCI host bridge to bus 0000:00
+Sep  4 19:36:36 host kernel: [    0.249720] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Sep  4 19:36:36 host kernel: [    0.249722] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Sep  4 19:36:36 host kernel: [    0.249724] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Sep  4 19:36:36 host kernel: [    0.249726] pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000cffff window]
+Sep  4 19:36:36 host kernel: [    0.249728] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000effff window]
+Sep  4 19:36:36 host kernel: [    0.249730] pci_bus 0000:00: root bus resource [mem 0xd0000000-0xf7ffffff window]
+Sep  4 19:36:36 host kernel: [    0.249732] pci_bus 0000:00: root bus resource [mem 0xfc000000-0xfeafffff window]
+Sep  4 19:36:36 host kernel: [    0.249733] pci_bus 0000:00: root bus resource [mem 0xfed45000-0xfed811ff window]
+Sep  4 19:36:36 host kernel: [    0.249735] pci_bus 0000:00: root bus resource [mem 0xfed81900-0xfed81fff window]
+Sep  4 19:36:36 host kernel: [    0.249737] pci_bus 0000:00: root bus resource [mem 0xfedc0000-0xfedc0fff window]
+Sep  4 19:36:36 host kernel: [    0.249738] pci_bus 0000:00: root bus resource [mem 0xfedc6000-0xfedc6fff window]
+Sep  4 19:36:36 host kernel: [    0.249740] pci_bus 0000:00: root bus resource [mem 0x250200000-0xfcffffffff window]
+Sep  4 19:36:36 host kernel: [    0.249742] pci_bus 0000:00: root bus resource [bus 00-ff]
+Sep  4 19:36:36 host kernel: [    0.249758] pci 0000:00:00.0: [1022:1630] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.249840] pci 0000:00:00.2: [1022:1631] type 00 class 0x080600
+Sep  4 19:36:36 host kernel: [    0.249924] pci 0000:00:01.0: [1022:1632] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.250017] pci 0000:00:02.0: [1022:1632] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.250103] pci 0000:00:02.2: [1022:1634] type 01 class 0x060400
+Sep  4 19:36:36 host kernel: [    0.250160] pci 0000:00:02.2: PME# supported from D0 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.250257] pci 0000:00:02.4: [1022:1634] type 01 class 0x060400
+Sep  4 19:36:36 host kernel: [    0.250314] pci 0000:00:02.4: PME# supported from D0 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.250418] pci 0000:00:08.0: [1022:1632] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.250502] pci 0000:00:08.1: [1022:1635] type 01 class 0x060400
+Sep  4 19:36:36 host kernel: [    0.250524] pci 0000:00:08.1: enabling Extended Tags
+Sep  4 19:36:36 host kernel: [    0.250555] pci 0000:00:08.1: PME# supported from D0 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.250714] pci 0000:00:14.0: [1022:790b] type 00 class 0x0c0500
+Sep  4 19:36:36 host kernel: [    0.250846] pci 0000:00:14.3: [1022:790e] type 00 class 0x060100
+Sep  4 19:36:36 host kernel: [    0.250999] pci 0000:00:18.0: [1022:1448] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251067] pci 0000:00:18.1: [1022:1449] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251132] pci 0000:00:18.2: [1022:144a] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251197] pci 0000:00:18.3: [1022:144b] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251261] pci 0000:00:18.4: [1022:144c] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251329] pci 0000:00:18.5: [1022:144d] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251396] pci 0000:00:18.6: [1022:144e] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251460] pci 0000:00:18.7: [1022:144f] type 00 class 0x060000
+Sep  4 19:36:36 host kernel: [    0.251582] pci 0000:01:00.0: [10ec:c822] type 00 class 0x028000
+Sep  4 19:36:36 host kernel: [    0.251601] pci 0000:01:00.0: reg 0x10: [io  0x2000-0x20ff]
+Sep  4 19:36:36 host kernel: [    0.251626] pci 0000:01:00.0: reg 0x18: [mem 0xd0500000-0xd050ffff 64bit]
+Sep  4 19:36:36 host kernel: [    0.251741] pci 0000:01:00.0: supports D1 D2
+Sep  4 19:36:36 host kernel: [    0.251742] pci 0000:01:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.252000] pci 0000:00:02.2: PCI bridge to [bus 01]
+Sep  4 19:36:36 host kernel: [    0.252004] pci 0000:00:02.2:   bridge window [io  0x2000-0x2fff]
+Sep  4 19:36:36 host kernel: [    0.252007] pci 0000:00:02.2:   bridge window [mem 0xd0500000-0xd05fffff]
+Sep  4 19:36:36 host kernel: [    0.252285] pci 0000:02:00.0: [1987:5012] type 00 class 0x010802
+Sep  4 19:36:36 host kernel: [    0.252329] pci 0000:02:00.0: reg 0x10: [mem 0xd0400000-0xd0403fff 64bit]
+Sep  4 19:36:36 host kernel: [    0.253074] pci 0000:00:02.4: PCI bridge to [bus 02]
+Sep  4 19:36:36 host kernel: [    0.253078] pci 0000:00:02.4:   bridge window [mem 0xd0400000-0xd04fffff]
+Sep  4 19:36:36 host kernel: [    0.253117] pci 0000:03:00.0: [1002:164c] type 00 class 0x030000
+Sep  4 19:36:36 host kernel: [    0.253128] pci 0000:03:00.0: reg 0x10: [mem 0xfce0000000-0xfcefffffff 64bit pref]
+Sep  4 19:36:36 host kernel: [    0.253136] pci 0000:03:00.0: reg 0x18: [mem 0xfcf0000000-0xfcf01fffff 64bit pref]
+Sep  4 19:36:36 host kernel: [    0.253142] pci 0000:03:00.0: reg 0x20: [io  0x1000-0x10ff]
+Sep  4 19:36:36 host kernel: [    0.253148] pci 0000:03:00.0: reg 0x24: [mem 0xd0300000-0xd037ffff]
+Sep  4 19:36:36 host kernel: [    0.253157] pci 0000:03:00.0: enabling Extended Tags
+Sep  4 19:36:36 host kernel: [    0.253205] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.253224] pci 0000:03:00.0: 126.016 Gb/s available PCIe bandwidth, limited by 8.0 GT/s PCIe x16 link at 0000:00:08.1 (capable of 252.048 Gb/s with 16.0 GT/s PCIe x16 link)
+Sep  4 19:36:36 host kernel: [    0.253323] pci 0000:03:00.1: [1002:1637] type 00 class 0x040300
+Sep  4 19:36:36 host kernel: [    0.253331] pci 0000:03:00.1: reg 0x10: [mem 0xd03c0000-0xd03c3fff]
+Sep  4 19:36:36 host kernel: [    0.253352] pci 0000:03:00.1: enabling Extended Tags
+Sep  4 19:36:36 host kernel: [    0.253382] pci 0000:03:00.1: PME# supported from D1 D2 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.253459] pci 0000:03:00.2: [1022:15df] type 00 class 0x108000
+Sep  4 19:36:36 host kernel: [    0.253473] pci 0000:03:00.2: reg 0x18: [mem 0xd0200000-0xd02fffff]
+Sep  4 19:36:36 host kernel: [    0.253483] pci 0000:03:00.2: reg 0x24: [mem 0xd03c4000-0xd03c5fff]
+Sep  4 19:36:36 host kernel: [    0.253491] pci 0000:03:00.2: enabling Extended Tags
+Sep  4 19:36:36 host kernel: [    0.253593] pci 0000:03:00.3: [1022:1639] type 00 class 0x0c0330
+Sep  4 19:36:36 host kernel: [    0.253604] pci 0000:03:00.3: reg 0x10: [mem 0xd0000000-0xd00fffff 64bit]
+Sep  4 19:36:36 host kernel: [    0.253628] pci 0000:03:00.3: enabling Extended Tags
+Sep  4 19:36:36 host kernel: [    0.253659] pci 0000:03:00.3: PME# supported from D0 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.253746] pci 0000:03:00.4: [1022:1639] type 00 class 0x0c0330
+Sep  4 19:36:36 host kernel: [    0.253757] pci 0000:03:00.4: reg 0x10: [mem 0xd0100000-0xd01fffff 64bit]
+Sep  4 19:36:36 host kernel: [    0.253781] pci 0000:03:00.4: enabling Extended Tags
+Sep  4 19:36:36 host kernel: [    0.253813] pci 0000:03:00.4: PME# supported from D0 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.253898] pci 0000:03:00.5: [1022:15e2] type 00 class 0x048000
+Sep  4 19:36:36 host kernel: [    0.253906] pci 0000:03:00.5: reg 0x10: [mem 0xd0380000-0xd03bffff]
+Sep  4 19:36:36 host kernel: [    0.253928] pci 0000:03:00.5: enabling Extended Tags
+Sep  4 19:36:36 host kernel: [    0.253957] pci 0000:03:00.5: PME# supported from D0 D3hot D3cold
+Sep  4 19:36:36 host kernel: [    0.254063] pci 0000:00:08.1: PCI bridge to [bus 03]
+Sep  4 19:36:36 host kernel: [    0.254067] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+Sep  4 19:36:36 host kernel: [    0.254069] pci 0000:00:08.1:   bridge window [mem 0xd0000000-0xd03fffff]
+Sep  4 19:36:36 host kernel: [    0.254073] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+Sep  4 19:36:36 host kernel: [    0.254924] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.254925] ACPI: PCI: Interrupt link LNKA disabled
+Sep  4 19:36:36 host kernel: [    0.254992] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.254993] ACPI: PCI: Interrupt link LNKB disabled
+Sep  4 19:36:36 host kernel: [    0.255045] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.255046] ACPI: PCI: Interrupt link LNKC disabled
+Sep  4 19:36:36 host kernel: [    0.255112] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.255113] ACPI: PCI: Interrupt link LNKD disabled
+Sep  4 19:36:36 host kernel: [    0.255173] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.255174] ACPI: PCI: Interrupt link LNKE disabled
+Sep  4 19:36:36 host kernel: [    0.255222] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.255223] ACPI: PCI: Interrupt link LNKF disabled
+Sep  4 19:36:36 host kernel: [    0.255271] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.255272] ACPI: PCI: Interrupt link LNKG disabled
+Sep  4 19:36:36 host kernel: [    0.255323] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+Sep  4 19:36:36 host kernel: [    0.255324] ACPI: PCI: Interrupt link LNKH disabled
+Sep  4 19:36:36 host kernel: [    0.256516] Low-power S0 idle used by default for system suspend
+Sep  4 19:36:36 host kernel: [    0.256642] ACPI: EC: interrupt unblocked
+Sep  4 19:36:36 host kernel: [    0.256643] ACPI: EC: event unblocked
+Sep  4 19:36:36 host kernel: [    0.256650] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Sep  4 19:36:36 host kernel: [    0.256651] ACPI: EC: GPE=0x3
+Sep  4 19:36:36 host kernel: [    0.256653] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC initialization complete
+Sep  4 19:36:36 host kernel: [    0.256654] ACPI: \_SB_.PCI0.LPC0.EC0_: EC: Used to handle transactions and events
+Sep  4 19:36:36 host kernel: [    0.256691] iommu: Default domain type: Translated
+Sep  4 19:36:36 host kernel: [    0.256692] iommu: DMA domain TLB invalidation policy: lazy mode
+Sep  4 19:36:36 host kernel: [    0.256755] SCSI subsystem initialized
+Sep  4 19:36:36 host kernel: [    0.256762] libata version 3.00 loaded.
+Sep  4 19:36:36 host kernel: [    0.256762] ACPI: bus type USB registered
+Sep  4 19:36:36 host kernel: [    0.256762] usbcore: registered new interface driver usbfs
+Sep  4 19:36:36 host kernel: [    0.256762] usbcore: registered new interface driver hub
+Sep  4 19:36:36 host kernel: [    0.256762] usbcore: registered new device driver usb
+Sep  4 19:36:36 host kernel: [    0.256762] pps_core: LinuxPPS API ver. 1 registered
+Sep  4 19:36:36 host kernel: [    0.256762] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Sep  4 19:36:36 host kernel: [    0.256762] PTP clock support registered
+Sep  4 19:36:36 host kernel: [    0.256762] efivars: Registered efivars operations
+Sep  4 19:36:36 host kernel: [    0.256762] Advanced Linux Sound Architecture Driver Initialized.
+Sep  4 19:36:36 host kernel: [    0.257352] NetLabel: Initializing
+Sep  4 19:36:36 host kernel: [    0.257353] NetLabel:  domain hash size = 128
+Sep  4 19:36:36 host kernel: [    0.257354] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Sep  4 19:36:36 host kernel: [    0.257375] NetLabel:  unlabeled traffic allowed by default
+Sep  4 19:36:36 host kernel: [    0.257390] PCI: Using ACPI for IRQ routing
+Sep  4 19:36:36 host kernel: [    0.259608] PCI: pci_cache_line_size set to 64 bytes
+Sep  4 19:36:36 host kernel: [    0.259918] resource: Expanded resource Reserved due to conflict with PCI Bus 0000:00
+Sep  4 19:36:36 host kernel: [    0.259920] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+Sep  4 19:36:36 host kernel: [    0.259922] e820: reserve RAM buffer [mem 0x09a00000-0x0bffffff]
+Sep  4 19:36:36 host kernel: [    0.259923] e820: reserve RAM buffer [mem 0x09f00000-0x0bffffff]
+Sep  4 19:36:36 host kernel: [    0.259925] e820: reserve RAM buffer [mem 0xb5a0a000-0xb7ffffff]
+Sep  4 19:36:36 host kernel: [    0.259926] e820: reserve RAM buffer [mem 0xb5a54000-0xb7ffffff]
+Sep  4 19:36:36 host kernel: [    0.259927] e820: reserve RAM buffer [mem 0xb5b22018-0xb7ffffff]
+Sep  4 19:36:36 host kernel: [    0.259928] e820: reserve RAM buffer [mem 0xb99e9000-0xbbffffff]
+Sep  4 19:36:36 host kernel: [    0.259930] e820: reserve RAM buffer [mem 0xc8dff000-0xcbffffff]
+Sep  4 19:36:36 host kernel: [    0.259931] e820: reserve RAM buffer [mem 0xce000000-0xcfffffff]
+Sep  4 19:36:36 host kernel: [    0.259932] e820: reserve RAM buffer [mem 0x20e300000-0x20fffffff]
+Sep  4 19:36:36 host kernel: [    0.259994] pci 0000:03:00.0: vgaarb: setting as boot VGA device
+Sep  4 19:36:36 host kernel: [    0.259994] pci 0000:03:00.0: vgaarb: bridge control possible
+Sep  4 19:36:36 host kernel: [    0.259994] pci 0000:03:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+Sep  4 19:36:36 host kernel: [    0.259994] vgaarb: loaded
+Sep  4 19:36:36 host kernel: [    0.260337] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Sep  4 19:36:36 host kernel: [    0.260342] hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+Sep  4 19:36:36 host kernel: [    0.263769] clocksource: Switched to clocksource tsc-early
+Sep  4 19:36:36 host kernel: [    0.314225] VFS: Disk quotas dquot_6.6.0
+Sep  4 19:36:36 host kernel: [    0.314236] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Sep  4 19:36:36 host kernel: [    0.314289] pnp: PnP ACPI init
+Sep  4 19:36:36 host kernel: [    0.314456] system 00:00: [mem 0xfec00000-0xfec01fff] could not be reserved
+Sep  4 19:36:36 host kernel: [    0.314459] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314461] system 00:00: [mem 0xfdd00000-0xfddfffff] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314645] system 00:03: [io  0x0400-0x04cf] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314647] system 00:03: [io  0x04d0-0x04d1] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314649] system 00:03: [io  0x04d6] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314651] system 00:03: [io  0x0c00-0x0c01] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314653] system 00:03: [io  0x0c14] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314655] system 00:03: [io  0x0c50-0x0c52] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314656] system 00:03: [io  0x0c6c] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314658] system 00:03: [io  0x0c6f] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314660] system 00:03: [io  0x0cd0-0x0cdb] has been reserved
+Sep  4 19:36:36 host kernel: [    0.314717] system 00:04: [mem 0xff000000-0xffffffff] has been reserved
+Sep  4 19:36:36 host kernel: [    0.315519] pnp: PnP ACPI: found 5 devices
+Sep  4 19:36:36 host kernel: [    0.321932] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Sep  4 19:36:36 host kernel: [    0.322048] NET: Registered PF_INET protocol family
+Sep  4 19:36:36 host kernel: [    0.322192] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.324628] tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.324636] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.324640] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.324702] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.324877] TCP: Hash tables configured (established 65536 bind 65536)
+Sep  4 19:36:36 host kernel: [    0.324937] UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.324957] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Sep  4 19:36:36 host kernel: [    0.325014] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Sep  4 19:36:36 host kernel: [    0.325142] RPC: Registered named UNIX socket transport module.
+Sep  4 19:36:36 host kernel: [    0.325143] RPC: Registered udp transport module.
+Sep  4 19:36:36 host kernel: [    0.325144] RPC: Registered tcp transport module.
+Sep  4 19:36:36 host kernel: [    0.325145] RPC: Registered tcp-with-tls transport module.
+Sep  4 19:36:36 host kernel: [    0.325146] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Sep  4 19:36:36 host kernel: [    0.325596] pci 0000:00:02.2: PCI bridge to [bus 01]
+Sep  4 19:36:36 host kernel: [    0.325601] pci 0000:00:02.2:   bridge window [io  0x2000-0x2fff]
+Sep  4 19:36:36 host kernel: [    0.325605] pci 0000:00:02.2:   bridge window [mem 0xd0500000-0xd05fffff]
+Sep  4 19:36:36 host kernel: [    0.325610] pci 0000:00:02.4: PCI bridge to [bus 02]
+Sep  4 19:36:36 host kernel: [    0.325613] pci 0000:00:02.4:   bridge window [mem 0xd0400000-0xd04fffff]
+Sep  4 19:36:36 host kernel: [    0.325620] pci 0000:00:08.1: PCI bridge to [bus 03]
+Sep  4 19:36:36 host kernel: [    0.325622] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+Sep  4 19:36:36 host kernel: [    0.325625] pci 0000:00:08.1:   bridge window [mem 0xd0000000-0xd03fffff]
+Sep  4 19:36:36 host kernel: [    0.325627] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+Sep  4 19:36:36 host kernel: [    0.325633] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Sep  4 19:36:36 host kernel: [    0.325635] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Sep  4 19:36:36 host kernel: [    0.325637] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Sep  4 19:36:36 host kernel: [    0.325639] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000cffff window]
+Sep  4 19:36:36 host kernel: [    0.325640] pci_bus 0000:00: resource 8 [mem 0x000d0000-0x000effff window]
+Sep  4 19:36:36 host kernel: [    0.325642] pci_bus 0000:00: resource 9 [mem 0xd0000000-0xf7ffffff window]
+Sep  4 19:36:36 host kernel: [    0.325644] pci_bus 0000:00: resource 10 [mem 0xfc000000-0xfeafffff window]
+Sep  4 19:36:36 host kernel: [    0.325646] pci_bus 0000:00: resource 11 [mem 0xfed45000-0xfed811ff window]
+Sep  4 19:36:36 host kernel: [    0.325647] pci_bus 0000:00: resource 12 [mem 0xfed81900-0xfed81fff window]
+Sep  4 19:36:36 host kernel: [    0.325649] pci_bus 0000:00: resource 13 [mem 0xfedc0000-0xfedc0fff window]
+Sep  4 19:36:36 host kernel: [    0.325651] pci_bus 0000:00: resource 14 [mem 0xfedc6000-0xfedc6fff window]
+Sep  4 19:36:36 host kernel: [    0.325652] pci_bus 0000:00: resource 15 [mem 0x250200000-0xfcffffffff window]
+Sep  4 19:36:36 host kernel: [    0.325654] pci_bus 0000:01: resource 0 [io  0x2000-0x2fff]
+Sep  4 19:36:36 host kernel: [    0.325656] pci_bus 0000:01: resource 1 [mem 0xd0500000-0xd05fffff]
+Sep  4 19:36:36 host kernel: [    0.325658] pci_bus 0000:02: resource 1 [mem 0xd0400000-0xd04fffff]
+Sep  4 19:36:36 host kernel: [    0.325660] pci_bus 0000:03: resource 0 [io  0x1000-0x1fff]
+Sep  4 19:36:36 host kernel: [    0.325661] pci_bus 0000:03: resource 1 [mem 0xd0000000-0xd03fffff]
+Sep  4 19:36:36 host kernel: [    0.325663] pci_bus 0000:03: resource 2 [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+Sep  4 19:36:36 host kernel: [    0.326008] pci 0000:03:00.1: D0 power state depends on 0000:03:00.0
+Sep  4 19:36:36 host kernel: [    0.326016] pci 0000:03:00.3: extending delay after power-on from D3hot to 20 msec
+Sep  4 19:36:36 host kernel: [    0.485400] pci 0000:03:00.3: quirk_usb_early_handoff+0x0/0x7a0 took 155646 usecs
+Sep  4 19:36:36 host kernel: [    0.485408] pci 0000:03:00.4: extending delay after power-on from D3hot to 20 msec
+Sep  4 19:36:36 host kernel: [    0.522400] pci 0000:03:00.4: quirk_usb_early_handoff+0x0/0x7a0 took 36122 usecs
+Sep  4 19:36:36 host kernel: [    0.522405] PCI: CLS 64 bytes, default 64
+Sep  4 19:36:36 host kernel: [    0.522417] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+Sep  4 19:36:36 host kernel: [    0.522457] Unpacking initramfs...
+Sep  4 19:36:36 host kernel: [    0.522474] pci 0000:00:01.0: Adding to iommu group 0
+Sep  4 19:36:36 host kernel: [    0.522495] pci 0000:00:02.0: Adding to iommu group 1
+Sep  4 19:36:36 host kernel: [    0.522510] pci 0000:00:02.2: Adding to iommu group 2
+Sep  4 19:36:36 host kernel: [    0.522525] pci 0000:00:02.4: Adding to iommu group 3
+Sep  4 19:36:36 host kernel: [    0.522550] pci 0000:00:08.0: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.522562] pci 0000:00:08.1: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.522586] pci 0000:00:14.0: Adding to iommu group 5
+Sep  4 19:36:36 host kernel: [    0.522599] pci 0000:00:14.3: Adding to iommu group 5
+Sep  4 19:36:36 host kernel: [    0.522656] pci 0000:00:18.0: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522669] pci 0000:00:18.1: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522683] pci 0000:00:18.2: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522696] pci 0000:00:18.3: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522709] pci 0000:00:18.4: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522722] pci 0000:00:18.5: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522735] pci 0000:00:18.6: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522748] pci 0000:00:18.7: Adding to iommu group 6
+Sep  4 19:36:36 host kernel: [    0.522764] pci 0000:01:00.0: Adding to iommu group 7
+Sep  4 19:36:36 host kernel: [    0.522778] pci 0000:02:00.0: Adding to iommu group 8
+Sep  4 19:36:36 host kernel: [    0.522790] pci 0000:03:00.0: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.522795] pci 0000:03:00.1: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.522801] pci 0000:03:00.2: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.522807] pci 0000:03:00.3: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.522814] pci 0000:03:00.4: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.522821] pci 0000:03:00.5: Adding to iommu group 4
+Sep  4 19:36:36 host kernel: [    0.523666] pci 0000:00:00.2: can't derive routing for PCI INT A
+Sep  4 19:36:36 host kernel: [    0.523669] pci 0000:00:00.2: PCI INT A: not connected
+Sep  4 19:36:36 host kernel: [    0.523967] AMD-Vi: Extended features (0x206d73ef22254ade, 0x0): PPR X2APIC NX GT IA GA PC GA_vAPIC
+Sep  4 19:36:36 host kernel: [    0.523977] AMD-Vi: Interrupt remapping enabled
+Sep  4 19:36:36 host kernel: [    0.523978] AMD-Vi: X2APIC enabled
+Sep  4 19:36:36 host kernel: [    0.524134] AMD-Vi: Virtual APIC enabled
+Sep  4 19:36:36 host kernel: [    0.524142] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Sep  4 19:36:36 host kernel: [    0.524144] software IO TLB: mapped [mem 0x00000000c4531000-0x00000000c8531000] (64MB)
+Sep  4 19:36:36 host kernel: [    0.526123] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Sep  4 19:36:36 host kernel: [    0.526127] RAPL PMU: hw unit of domain package 2^-16 Joules
+Sep  4 19:36:36 host kernel: [    0.526133] LVT offset 0 assigned for vector 0x400
+Sep  4 19:36:36 host kernel: [    0.529601] perf: AMD IBS detected (0x000003ff)
+Sep  4 19:36:36 host kernel: [    0.529739] amd_uncore: 4 amd_df counters detected
+Sep  4 19:36:36 host kernel: [    0.529754] amd_uncore: 6 amd_l3 counters detected
+Sep  4 19:36:36 host kernel: [    0.529869] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+Sep  4 19:36:36 host kernel: [    0.532338] Initialise system trusted keyrings
+Sep  4 19:36:36 host kernel: [    0.532373] workingset: timestamp_bits=40 max_order=21 bucket_order=0
+Sep  4 19:36:36 host kernel: [    0.532523] NFS: Registering the id_resolver key type
+Sep  4 19:36:36 host kernel: [    0.532527] Key type id_resolver registered
+Sep  4 19:36:36 host kernel: [    0.532528] Key type id_legacy registered
+Sep  4 19:36:36 host kernel: [    0.532557] 9p: Installing v9fs 9p2000 file system support
+Sep  4 19:36:36 host kernel: [    0.544224] Key type asymmetric registered
+Sep  4 19:36:36 host kernel: [    0.544227] Asymmetric key parser 'x509' registered
+Sep  4 19:36:36 host kernel: [    0.544242] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Sep  4 19:36:36 host kernel: [    0.544256] io scheduler mq-deadline registered
+Sep  4 19:36:36 host kernel: [    0.544257] io scheduler kyber registered
+Sep  4 19:36:36 host kernel: [    0.544485] pcieport 0000:00:02.2: PME: Signaling with IRQ 28
+Sep  4 19:36:36 host kernel: [    0.544603] pcieport 0000:00:02.4: PME: Signaling with IRQ 29
+Sep  4 19:36:36 host kernel: [    0.544717] pcieport 0000:00:08.1: PME: Signaling with IRQ 30
+Sep  4 19:36:36 host kernel: [    0.545521] ACPI: AC: AC Adapter [ACAD] (on-line)
+Sep  4 19:36:36 host kernel: [    0.545575] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Sep  4 19:36:36 host kernel: [    0.545597] ACPI: button: Power Button [PWRB]
+Sep  4 19:36:36 host kernel: [    0.545637] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input1
+Sep  4 19:36:36 host kernel: [    0.545657] ACPI: button: Lid Switch [LID0]
+Sep  4 19:36:36 host kernel: [    0.545715] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+Sep  4 19:36:36 host kernel: [    0.545851] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0f/LNXVIDEO:00/input/input2
+Sep  4 19:36:36 host kernel: [    0.545946] Estimated ratio of average max frequency by base frequency (times 1024): 1501
+Sep  4 19:36:36 host kernel: [    0.545963] Monitor-Mwait will be used to enter C-1 state
+Sep  4 19:36:36 host kernel: [    0.545973] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.546105] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.546267] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.546464] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.546576] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.546762] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.546867] ACPI: \_SB_.PLTF.C006: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.547048] ACPI: \_SB_.PLTF.C007: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.547154] ACPI: \_SB_.PLTF.C008: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.547331] ACPI: \_SB_.PLTF.C009: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.547439] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.547578] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Sep  4 19:36:36 host kernel: [    0.547992] thermal LNXTHERM:00: registered as thermal_zone0
+Sep  4 19:36:36 host kernel: [    0.547996] ACPI: thermal: Thermal Zone [TZ01] (10 C)
+Sep  4 19:36:36 host kernel: [    0.548090] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Sep  4 19:36:36 host kernel: [    0.548656] Non-volatile memory driver v1.3
+Sep  4 19:36:36 host kernel: [    0.548658] Linux agpgart interface v0.103
+Sep  4 19:36:36 host kernel: [    0.549147] ACPI: bus type drm_connector registered
+Sep  4 19:36:36 host kernel: [    0.549193] ACPI: battery: Slot [BAT1] (battery present)
+Sep  4 19:36:36 host kernel: [    0.552066] loop: module loaded
+Sep  4 19:36:36 host kernel: [    0.552399] e100: Intel(R) PRO/100 Network Driver
+Sep  4 19:36:36 host kernel: [    0.552401] e100: Copyright(c) 1999-2006 Intel Corporation
+Sep  4 19:36:36 host kernel: [    0.552411] e1000: Intel(R) PRO/1000 Network Driver
+Sep  4 19:36:36 host kernel: [    0.552412] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Sep  4 19:36:36 host kernel: [    0.552423] e1000e: Intel(R) PRO/1000 Network Driver
+Sep  4 19:36:36 host kernel: [    0.552424] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Sep  4 19:36:36 host kernel: [    0.552437] sky2: driver version 1.30
+Sep  4 19:36:36 host kernel: [    0.552659] xhci_hcd 0000:03:00.3: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.552692] xhci_hcd 0000:03:00.3: new USB bus registered, assigned bus number 1
+Sep  4 19:36:36 host kernel: [    0.552779] xhci_hcd 0000:03:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+Sep  4 19:36:36 host kernel: [    0.553205] xhci_hcd 0000:03:00.3: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.553233] xhci_hcd 0000:03:00.3: new USB bus registered, assigned bus number 2
+Sep  4 19:36:36 host kernel: [    0.553235] xhci_hcd 0000:03:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+Sep  4 19:36:36 host kernel: [    0.553283] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.07
+Sep  4 19:36:36 host kernel: [    0.553286] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 19:36:36 host kernel: [    0.553288] usb usb1: Product: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.553289] usb usb1: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 19:36:36 host kernel: [    0.553291] usb usb1: SerialNumber: 0000:03:00.3
+Sep  4 19:36:36 host kernel: [    0.553407] hub 1-0:1.0: USB hub found
+Sep  4 19:36:36 host kernel: [    0.553414] hub 1-0:1.0: 4 ports detected
+Sep  4 19:36:36 host kernel: [    0.554050] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+Sep  4 19:36:36 host kernel: [    0.554070] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.07
+Sep  4 19:36:36 host kernel: [    0.554072] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 19:36:36 host kernel: [    0.554073] usb usb2: Product: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.554075] usb usb2: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 19:36:36 host kernel: [    0.554076] usb usb2: SerialNumber: 0000:03:00.3
+Sep  4 19:36:36 host kernel: [    0.554161] hub 2-0:1.0: USB hub found
+Sep  4 19:36:36 host kernel: [    0.554167] hub 2-0:1.0: 2 ports detected
+Sep  4 19:36:36 host kernel: [    0.554571] xhci_hcd 0000:03:00.4: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.554606] xhci_hcd 0000:03:00.4: new USB bus registered, assigned bus number 3
+Sep  4 19:36:36 host kernel: [    0.554691] xhci_hcd 0000:03:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+Sep  4 19:36:36 host kernel: [    0.555086] xhci_hcd 0000:03:00.4: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.555112] xhci_hcd 0000:03:00.4: new USB bus registered, assigned bus number 4
+Sep  4 19:36:36 host kernel: [    0.555115] xhci_hcd 0000:03:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+Sep  4 19:36:36 host kernel: [    0.555142] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.07
+Sep  4 19:36:36 host kernel: [    0.555144] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 19:36:36 host kernel: [    0.555146] usb usb3: Product: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.555147] usb usb3: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 19:36:36 host kernel: [    0.555149] usb usb3: SerialNumber: 0000:03:00.4
+Sep  4 19:36:36 host kernel: [    0.555239] hub 3-0:1.0: USB hub found
+Sep  4 19:36:36 host kernel: [    0.555246] hub 3-0:1.0: 4 ports detected
+Sep  4 19:36:36 host kernel: [    0.556377] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+Sep  4 19:36:36 host kernel: [    0.556398] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.07
+Sep  4 19:36:36 host kernel: [    0.556400] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep  4 19:36:36 host kernel: [    0.556401] usb usb4: Product: xHCI Host Controller
+Sep  4 19:36:36 host kernel: [    0.556403] usb usb4: Manufacturer: Linux 6.7.4 xhci-hcd
+Sep  4 19:36:36 host kernel: [    0.556404] usb usb4: SerialNumber: 0000:03:00.4
+Sep  4 19:36:36 host kernel: [    0.556488] hub 4-0:1.0: USB hub found
+Sep  4 19:36:36 host kernel: [    0.556493] hub 4-0:1.0: 2 ports detected
+Sep  4 19:36:36 host kernel: [    0.556859] usbcore: registered new interface driver usblp
+Sep  4 19:36:36 host kernel: [    0.556881] usbcore: registered new interface driver usb-storage
+Sep  4 19:36:36 host kernel: [    0.556910] i8042: PNP: PS/2 Controller [PNP0303:KBC0] at 0x60,0x64 irq 1
+Sep  4 19:36:36 host kernel: [    0.556912] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+Sep  4 19:36:36 host kernel: [    0.558229] serio: i8042 KBD port at 0x60,0x64 irq 1
+Sep  4 19:36:36 host kernel: [    0.558397] rtc_cmos 00:01: RTC can wake from S4
+Sep  4 19:36:36 host kernel: [    0.558630] rtc_cmos 00:01: registered as rtc0
+Sep  4 19:36:36 host kernel: [    0.558655] rtc_cmos 00:01: alarms up to one month, 114 bytes nvram
+Sep  4 19:36:36 host kernel: [    0.558686] fail to initialize ptp_kvm
+Sep  4 19:36:36 host kernel: [    0.558735] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+Sep  4 19:36:36 host kernel: [    0.558910] [drm] Initialized simpledrm 1.0.0 20200625 for simple-framebuffer.0 on minor 0
+Sep  4 19:36:36 host kernel: [    0.561700] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+Sep  4 19:36:36 host kernel: [    0.563828] Console: switching to colour frame buffer device 240x67
+Sep  4 19:36:36 host kernel: [    0.566481] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+Sep  4 19:36:36 host kernel: [    0.566621] hid: raw HID events driver (C) Jiri Kosina
+Sep  4 19:36:36 host kernel: [    0.567050] usbcore: registered new interface driver usbhid
+Sep  4 19:36:36 host kernel: [    0.567054] usbhid: USB HID core driver
+Sep  4 19:36:36 host kernel: [    0.567621] snd_hda_intel 0000:03:00.1: enabling device (0000 -> 0002)
+Sep  4 19:36:36 host kernel: [    0.568836] Initializing XFRM netlink socket
+Sep  4 19:36:36 host kernel: [    0.568895] NET: Registered PF_INET6 protocol family
+Sep  4 19:36:36 host kernel: [    0.569235] Segment Routing with IPv6
+Sep  4 19:36:36 host kernel: [    0.569243] In-situ OAM (IOAM) with IPv6
+Sep  4 19:36:36 host kernel: [    0.569271] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Sep  4 19:36:36 host kernel: [    0.569412] NET: Registered PF_PACKET protocol family
+Sep  4 19:36:36 host kernel: [    0.569434] 9pnet: Installing 9P2000 support
+Sep  4 19:36:36 host kernel: [    0.569451] Key type dns_resolver registered
+Sep  4 19:36:36 host kernel: [    0.570565] microcode: Current revision: 0x08608103
+Sep  4 19:36:36 host kernel: [    0.570884] IPI shorthand broadcast: enabled
+Sep  4 19:36:36 host kernel: [    0.571128] snd_hda_intel 0000:03:00.1: Cannot probe codecs, giving up
+Sep  4 19:36:36 host kernel: [    0.575464] sched_clock: Marking stable (575073226, 300915)->(2342456921, -1767082780)
+Sep  4 19:36:36 host kernel: [    0.575635] registered taskstats version 1
+Sep  4 19:36:36 host kernel: [    0.575636] Loading compiled-in X.509 certificates
+Sep  4 19:36:36 host kernel: [    0.578028] PM:   Magic number: 8:364:596
+Sep  4 19:36:36 host kernel: [    0.578115] printk: legacy console [netcon0] enabled
+Sep  4 19:36:36 host kernel: [    0.578117] netconsole: network logging started
+Sep  4 19:36:36 host kernel: [    0.578265] acpi_cpufreq: overriding BIOS provided _PSD data
+Sep  4 19:36:36 host kernel: [    0.578349] Freeing initrd memory: 33692K
+Sep  4 19:36:36 host kernel: [    0.579570] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Sep  4 19:36:36 host kernel: [    0.580913] modprobe (116) used greatest stack depth: 13592 bytes left
+Sep  4 19:36:36 host kernel: [    0.582262] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Sep  4 19:36:36 host kernel: [    0.582627] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+Sep  4 19:36:36 host kernel: [    0.582655] ALSA device list:
+Sep  4 19:36:36 host kernel: [    0.582659]   No soundcards found.
+Sep  4 19:36:36 host kernel: [    0.583263] Freeing unused kernel image (initmem) memory: 2692K
+Sep  4 19:36:36 host kernel: [    0.583340] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Sep  4 19:36:36 host kernel: [    0.583347] cfg80211: failed to load regulatory.db
+Sep  4 19:36:36 host kernel: [    0.590989] Write protecting the kernel read-only data: 26624k
+Sep  4 19:36:36 host kernel: [    0.591800] Freeing unused kernel image (rodata/data gap) memory: 1540K
+Sep  4 19:36:36 host kernel: [    0.648535] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Sep  4 19:36:36 host kernel: [    0.648542] Run /init as init process
+Sep  4 19:36:36 host kernel: [    0.648543]   with arguments:
+Sep  4 19:36:36 host kernel: [    0.648544]     /init
+Sep  4 19:36:36 host kernel: [    0.648545]   with environment:
+Sep  4 19:36:36 host kernel: [    0.648546]     HOME=/
+Sep  4 19:36:36 host kernel: [    0.648547]     TERM=linux
+Sep  4 19:36:36 host kernel: [    0.648548]     BOOT_IMAGE=/vmlinuz-6.10.5-lfs-12.2
+Sep  4 19:36:36 host kernel: [    0.673189] systemd-tmpfile (139) used greatest stack depth: 13392 bytes left
+Sep  4 19:36:36 host kernel: [    0.792020] usb 1-3: new high-speed USB device number 2 using xhci_hcd
+Sep  4 19:36:36 host kernel: [    0.799017] usb 3-2: new full-speed USB device number 2 using xhci_hcd
+Sep  4 19:36:36 host kernel: [    0.919752] usb 1-3: New USB device found, idVendor=2148, idProduct=7022, bcdDevice= 1.00
+Sep  4 19:36:36 host kernel: [    0.919755] usb 1-3: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Sep  4 19:36:36 host kernel: [    0.919757] usb 1-3: Product: USB2.0 HUB
+Sep  4 19:36:36 host kernel: [    0.945165] usb 3-2: New USB device found, idVendor=1358, idProduct=c123, bcdDevice= 0.00
+Sep  4 19:36:36 host kernel: [    0.945173] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep  4 19:36:36 host kernel: [    0.945178] usb 3-2: Product: Bluetooth Radio
+Sep  4 19:36:36 host kernel: [    0.945183] usb 3-2: Manufacturer: Realtek
+Sep  4 19:36:36 host kernel: [    0.945188] usb 3-2: SerialNumber: 00e04c000001
+Sep  4 19:36:36 host kernel: [    0.969606] hub 1-3:1.0: USB hub found
+Sep  4 19:36:36 host kernel: [    0.969879] hub 1-3:1.0: 4 ports detected
+Sep  4 19:36:36 host kernel: [    1.032136] usb 2-2: new SuperSpeed Plus Gen 2x1 USB device number 2 using xhci_hcd
+Sep  4 19:36:36 host kernel: [    1.045468] usb 2-2: New USB device found, idVendor=0951, idProduct=1780, bcdDevice= 1.00
+Sep  4 19:36:36 host kernel: [    1.045476] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep  4 19:36:36 host kernel: [    1.045483] usb 2-2: Product: XS1000
+Sep  4 19:36:36 host kernel: [    1.045489] usb 2-2: Manufacturer: Kingston
+Sep  4 19:36:36 host kernel: [    1.045494] usb 2-2: SerialNumber: 50026B728202CFBF
+Sep  4 19:36:36 host kernel: [    1.046600] usb-storage 2-2:1.0: USB Mass Storage device detected
+Sep  4 19:36:36 host kernel: [    1.046704] scsi host0: usb-storage 2-2:1.0
+Sep  4 19:36:36 host kernel: [    1.070031] usb 3-3: new full-speed USB device number 3 using xhci_hcd
+Sep  4 19:36:36 host kernel: [    1.159032] usb 1-4: new high-speed USB device number 3 using xhci_hcd
+Sep  4 19:36:36 host kernel: [    1.233155] usb 3-3: New USB device found, idVendor=27c6, idProduct=5125, bcdDevice= 2.00
+Sep  4 19:36:36 host kernel: [    1.233158] usb 3-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep  4 19:36:36 host kernel: [    1.233160] usb 3-3: Product: Goodix Fingerprint Device 
+Sep  4 19:36:36 host kernel: [    1.233162] usb 3-3: Manufacturer: Shenzhen Goodix Technology Co.,Ltd.
+Sep  4 19:36:36 host kernel: [    1.233163] usb 3-3: SerialNumber: 00000000001A
+Sep  4 19:36:36 host kernel: [    1.308325] usb 1-4: New USB device found, idVendor=13d3, idProduct=56f9, bcdDevice=19.02
+Sep  4 19:36:36 host kernel: [    1.308338] usb 1-4: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+Sep  4 19:36:36 host kernel: [    1.308344] usb 1-4: Product: ov9734_azurewave_camera
+Sep  4 19:36:36 host kernel: [    1.308349] usb 1-4: Manufacturer: Azurewave
+Sep  4 19:36:36 host kernel: [    1.308354] usb 1-4: SerialNumber: 0x0001
+Sep  4 19:36:36 host kernel: [    1.341662] usb 1-3.1: new full-speed USB device number 4 using xhci_hcd
+Sep  4 19:36:36 host kernel: [    1.371725] tsc: Refined TSC clocksource calibration: 2096.051 MHz
+Sep  4 19:36:36 host kernel: [    1.371743] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1e369e0db19, max_idle_ns: 440795226654 ns
+Sep  4 19:36:36 host kernel: [    1.371800] clocksource: Switched to clocksource tsc
+Sep  4 19:36:36 host kernel: [    1.538867] usb 1-3.1: New USB device found, idVendor=3151, idProduct=3020, bcdDevice= 0.02
+Sep  4 19:36:36 host kernel: [    1.538882] usb 1-3.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Sep  4 19:36:36 host kernel: [    1.538888] usb 1-3.1: Product: Wireless Device
+Sep  4 19:36:36 host kernel: [    1.538894] usb 1-3.1: Manufacturer: YICHIP
+Sep  4 19:36:36 host kernel: [    1.618089] input: YICHIP Wireless Device as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-3/1-3.1/1-3.1:1.0/0003:3151:3020.0001/input/input4
+Sep  4 19:36:36 host kernel: [    1.670153] hid-generic 0003:3151:3020.0001: input,hidraw0: USB HID v2.00 Keyboard [YICHIP Wireless Device] on usb-0000:03:00.3-3.1/input0
+Sep  4 19:36:36 host kernel: [    1.885112] scsi 0:0:0:0: Direct-Access     Kingston XS1000           1000 PQ: 0 ANSI: 6
+Sep  4 19:36:36 host kernel: [    1.885344] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Sep  4 19:36:36 host kernel: [    1.887827] sd 0:0:0:0: [sda] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+Sep  4 19:36:36 host kernel: [    1.888769] sd 0:0:0:0: [sda] Write Protect is off
+Sep  4 19:36:36 host kernel: [    1.888772] sd 0:0:0:0: [sda] Mode Sense: bf 00 00 08
+Sep  4 19:36:36 host kernel: [    1.889835] sd 0:0:0:0: [sda] Write cache: enabled, read cache: disabled, doesn't support DPO or FUA
+Sep  4 19:36:36 host kernel: [    1.898129]  sda: sda1 sda2 sda3 sda4
+Sep  4 19:36:36 host kernel: [    1.898706] sd 0:0:0:0: [sda] Attached SCSI disk
+Sep  4 19:36:36 host kernel: [   27.162431] usbhid 1-3.1:1.1: can't add hid device: -110
+Sep  4 19:36:36 host kernel: [   27.162493] usbhid: probe of 1-3.1:1.1 failed with error -110
+Sep  4 19:36:36 host kernel: [   27.226536] usb 1-3.2: new full-speed USB device number 5 using xhci_hcd
+Sep  4 19:36:36 host kernel: [   32.808352] usb 1-3.2: New USB device found, idVendor=258a, idProduct=0049, bcdDevice= 1.07
+Sep  4 19:36:36 host kernel: [   32.808358] usb 1-3.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Sep  4 19:36:36 host kernel: [   32.808360] usb 1-3.2: Product: Gaming Keyboard
+Sep  4 19:36:36 host kernel: [   32.808362] usb 1-3.2: Manufacturer: BY Tech
+Sep  4 19:36:36 host kernel: [   32.878194] input: BY Tech Gaming Keyboard as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-3/1-3.2/1-3.2:1.0/0003:258A:0049.0002/input/input5
+Sep  4 19:36:36 host kernel: [   32.930144] hid-generic 0003:258A:0049.0002: input,hidraw1: USB HID v1.11 Keyboard [BY Tech Gaming Keyboard] on usb-0000:03:00.3-3.2/input0
+Sep  4 19:36:36 host kernel: [   32.936498] input: BY Tech Gaming Keyboard System Control as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-3/1-3.2/1-3.2:1.1/0003:258A:0049.0003/input/input6
+Sep  4 19:36:36 host kernel: [   32.988901] input: BY Tech Gaming Keyboard Consumer Control as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-3/1-3.2/1-3.2:1.1/0003:258A:0049.0003/input/input7
+Sep  4 19:36:36 host kernel: [   32.989114] input: BY Tech Gaming Keyboard as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-3/1-3.2/1-3.2:1.1/0003:258A:0049.0003/input/input9
+Sep  4 19:36:36 host kernel: [   32.989355] input: BY Tech Gaming Keyboard Mouse as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-3/1-3.2/1-3.2:1.1/0003:258A:0049.0003/input/input10
+Sep  4 19:36:36 host kernel: [   32.989655] hid-generic 0003:258A:0049.0003: input,hiddev96,hidraw2: USB HID v1.11 Keyboard [BY Tech Gaming Keyboard] on usb-0000:03:00.3-3.2/input1
+Sep  4 19:36:36 host kernel: [   33.060590] usb 1-3.4: new high-speed USB device number 6 using xhci_hcd
+Sep  4 19:36:36 host kernel: [   33.142865] usb 1-3.4: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=31.00
+Sep  4 19:36:36 host kernel: [   33.142873] usb 1-3.4: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+Sep  4 19:36:36 host kernel: [   33.142875] usb 1-3.4: Product: USB 10/100/1000 LAN
+Sep  4 19:36:36 host kernel: [   33.142878] usb 1-3.4: Manufacturer: Realtek
+Sep  4 19:36:36 host kernel: [   33.142879] usb 1-3.4: SerialNumber: 001000001
+Sep  4 19:36:36 host kernel: [   33.253232] EXT4-fs (sda1): mounted filesystem fa8eb582-80aa-4884-807b-b8895f8bd38b r/w with ordered data mode. Quota mode: none.
+Sep  4 19:36:36 host kernel: [   33.253369] mount (240) used greatest stack depth: 13248 bytes left
+Sep  4 19:36:36 host kernel: [   33.258666] (udev-worker) (165) used greatest stack depth: 12768 bytes left
+Sep  4 19:36:36 host kernel: <30>[   40.216559] udevd[394]: Starting systemd-udevd version 255
+Sep  4 19:36:36 host kernel: <30>[   40.220326] udevd[395]: Using default interface naming scheme 'v255'.
+Sep  4 19:36:36 host kernel: [   41.155521] hwclock (443) used greatest stack depth: 12296 bytes left
+Sep  4 19:36:36 host kernel: [   41.216701] EXT4-fs (sda1): re-mounted fa8eb582-80aa-4884-807b-b8895f8bd38b ro. Quota mode: none.
+Sep  4 19:36:36 host kernel: [   41.295686] EXT4-fs (sda1): re-mounted fa8eb582-80aa-4884-807b-b8895f8bd38b r/w. Quota mode: none.
+Sep  4 19:36:36 host kernel: <28>[   41.347642] udevd[395]: Failed to touch /run/udev/queue, ignoring: No such file or directory
+Sep  4 19:40:42 host kernel: [  287.916542] usb 3-1: new high-speed USB device number 4 using xhci_hcd
+Sep  4 19:40:42 host kernel: [  288.053933] usb 3-1: New USB device found, idVendor=058f, idProduct=6387, bcdDevice= 1.06
+Sep  4 19:40:42 host kernel: [  288.053949] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep  4 19:40:42 host kernel: [  288.053955] usb 3-1: Product: Mass Storage
+Sep  4 19:40:42 host kernel: [  288.053960] usb 3-1: Manufacturer: Generic
+Sep  4 19:40:42 host kernel: [  288.053965] usb 3-1: SerialNumber: 9DBFCADE
+Sep  4 19:40:42 host kernel: [  288.055741] usb-storage 3-1:1.0: USB Mass Storage device detected
+Sep  4 19:40:42 host kernel: [  288.055933] scsi host1: usb-storage 3-1:1.0
+Sep  4 19:40:43 host kernel: [  289.131045] scsi 1:0:0:0: Direct-Access     Generic  Flash Disk       8.07 PQ: 0 ANSI: 4
+Sep  4 19:40:43 host kernel: [  289.131465] sd 1:0:0:0: Attached scsi generic sg1 type 0
+Sep  4 19:40:43 host kernel: [  289.132283] sd 1:0:0:0: [sdb] 15728640 512-byte logical blocks: (8.05 GB/7.50 GiB)
+Sep  4 19:40:43 host kernel: [  289.132949] sd 1:0:0:0: [sdb] Write Protect is off
+Sep  4 19:40:43 host kernel: [  289.132953] sd 1:0:0:0: [sdb] Mode Sense: 23 00 00 00
+Sep  4 19:40:43 host kernel: [  289.133638] sd 1:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Sep  4 19:40:43 host kernel: [  289.137442]  sdb: sdb1
+Sep  4 19:40:43 host kernel: [  289.137654] sd 1:0:0:0: [sdb] Attached SCSI removable disk
+Sep  4 19:40:48 host kernel: Kernel logging (proc) stopped.
+Sep  4 19:40:48 host kernel: Kernel log daemon terminating.
